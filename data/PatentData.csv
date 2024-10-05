@@ -1,0 +1,940 @@
+patentID,grantdate,appldate,patent_title,country,firmID
+8587134,20131119,20120816,Semiconductor packages,KR,104604
+9146835,20150929,20120105,Methods and systems with delayed execution of multiple processors,US,6066
+8898111,20141125,20130311,Enforcing temporal uniqueness of index keys utilizing key-valued locking in the presence of pseudo-deleted keys,US,6066
+9800780,20171024,20140328,"Image processing device, image processing method, and program to capture an image using fisheye lens",JP,9818
+9880833,20180130,20150630,Initialization status of a register employed as a pointer,US,6066
+8779656,20140715,20120801,"Organic electroluminescence element, and light emitting apparatus, image forming apparatus, light emitting element array, display apparatus, and imaging apparatus each using the element",JP,2721
+9607900,20170328,20150910,Method and structure to fabricate closely packed hybrid nanowires at scaled pitch,US,6066
+9563529,20170207,20150519,Selective monitoring of archive and backup storage,US,6066
+8926723,20150106,20100421,Dust collecting apparatus having a dust removing unit,KR,104604
+10276645,20190430,20160901,Image display device and method for repairing short circuit failure,JP,9818
+9703667,20170711,20150222,Hardware-based edge profiling,US,6066
+10250462,20190402,20161213,Managing change in an information technology environment,US,6066
+9603102,20170321,20070514,"Method of transmitting pilot tones in a multi-sector cell, including null pilot tones, for generating channel quality indicators",US,24800
+8527808,20130903,20120123,DMI redundancy in multiple processor computer systems,US,6008
+8938792,20150120,20121228,Device authentication using a physically unclonable functions based key generation system,US,6008
+9035419,20150519,20110823,Semiconductor devices including an air-gap and methods of manufacturing the same,KR,104604
+9214667,20151215,20101130,"Lithium-ion secondary battery, anode for lithium-ion secondary battery, power tool, electric vehicle and energy storage system",JP,9818
+9165941,20151020,20140321,Semiconductor memory devices and methods for fabricating the same,KR,104604
+9516752,20161206,20130318,Underfill device and method,US,6008
+9939285,20180410,20100121,Navigation apparatus,JP,9818
+10025221,20180717,20170425,Image forming apparatus having photosensitive member scanned by light that changes in scanning speed in accordance with image height,JP,2721
+10126855,20181113,20171030,Sensor device and information processing device,JP,9818
+9201936,20151201,20121113,Rapid provisioning of information for business analytics,US,6066
+9813994,20171107,20120215,Managing transmit power for better frequency re-use in TV white space,US,24800
+8949935,20150203,20121231,Secure account creation,US,1690
+8804182,20140812,20100513,"Printing control apparatus, printing control method, and computer-readable storage medium storing program",JP,2721
+10236449,20190319,20170407,"Organic photoelectric device, and image sensor and electronic device including the same",KR,104604
+9007858,20150414,20130212,"SRAM global precharge, discharge, and sense",US,6066
+9048999,20150602,20120419,Unequalized clock data recovery for serial I/O receiver,US,6008
+8437670,20130507,20110119,Image forming apparatus,JP,2721
+10103152,20181016,20170627,Semiconductor device and method for fabricating the same,KR,104604
+9001344,20150407,20140114,"Image forming apparatus, method of control thereof and computer readable medium",KR,104604
+9344752,20160517,20110119,Content reproduction system and content reproduction method,JP,9818
+9317022,20160419,20120719,Controlling power generators and chillers,US,6066
+9690680,20170627,20160923,Testing hybrid instruction architecture,US,6066
+8832383,20140909,20130520,Delayed replacement of TLB entries,US,6066
+9253600,20160202,20140825,Altitude estimation using a probability density function,US,1690
+8462384,20130611,20040929,Methods and apparatuses for aesthetically enhanced image conversion,US,1690
+10012782,20180703,20150807,Backlight apparatus and display apparatus having the same,KR,104604
+8407574,20130326,20060731,User interface for accessing presentations,US,1690
+9820090,20171114,20160915,Enhanced fallback mechanism for SLP connection during emergency SUPL sessions,US,24800
+9015522,20150421,20121204,Implementing DRAM failure scenarios mitigation by using buffer techniques delaying usage of RAS features in computer systems,US,6066
+9707146,20170718,20141202,Wearable robot and method for controlling the same,KR,104604
+9706455,20170711,20150806,Method and apparatus for adjusting mobility parameter,KR,104604
+10038804,20180731,20170118,"Image forming apparatus, control method of image forming apparatus and, program",JP,2721
+10074712,20180911,20171026,Display device,JP,9818
+9665586,20170530,20160714,Preserving high value entries in an event log,US,6066
+8508528,20130813,20100909,"Image signal processing apparatus, image signal processing method, program, and image signal processing system",JP,9818
+9015462,20150421,20120824,Display device and booting method thereof,KR,104604
+9230833,20160105,20150304,Methods to prevent filler entrapment in microelectronic device to microelectronic substrate interconnection structures,US,6008
+8532161,20130910,20100617,Method and apparatus that facilitates estimating Doppler spread for uplink transmissions,US,24800
+10140457,20181127,20160129,Secure input/output device management,US,6008
+9686791,20170620,20140826,Protocols for enabling mode 1 and mode 2 devices in TV white space networks,US,24800
+9456036,20160927,20150814,Switch-based data tiering,US,6066
+9276501,20160301,20130501,Electromechanical transducer and production method therefor,JP,2721
+9510217,20161129,20131122,Method and apparatus for enhanced application signaling from a wireless communications device,US,24800
+10269296,20190423,20170802,"Active-matrix display device, and active-matrix organic electroluminescent display device",JP,9818
+9449820,20160920,20141222,Epitaxial growth techniques for reducing nanowire dimension and pitch,US,6066
+10091648,20181002,20080424,Method and apparatus for new key derivation upon handoff in wireless networks,US,24800
+9445209,20160913,20130711,Mechanism and apparatus for seamless voice wake and speaker verification,US,6008
+9455014,20160927,20150805,"Adjusting resistive memory write driver strength based on write error rate (WER) to improve WER yield, and related methods and systems",US,24800
+8395270,20130312,20120110,Etching composition for an under-bump metallurgy layer,KR,104604
+9237510,20160112,20080620,System search method and mobile terminal performing the same,KR,104604
+9734890,20170815,20160429,Systems and methods for individually configuring dynamic random access memories sharing a common command access bus,US,24800
+8978019,20150310,20131008,Instrumentation of software applications for configuration thereof,US,6066
+9048261,20150602,20110804,Fabrication of field-effect transistors with atomic layer doping,US,6066
+9125139,20150901,20131118,Mobile access in a diverse access point network,US,24800
+8625018,20140107,20130215,"Synchronized, interactive augmented reality displays for multifunction devices",US,1690
+10437315,20191008,20170622,"System, apparatus and method for dynamically controlling error protection features of a processor",US,6008
+8948439,20150203,20110518,Acoustic conversion device and acoustic conversion device assembly method,JP,9818
+9866358,20180109,20151028,Reference signals design for time tracking in LTE-A,US,24800
+8987073,20150324,20120711,Self-protected metal-oxide-semiconductor field-effect transistor,US,6066
+9690483,20170627,20170105,Asynchronously clearing page frames,US,6066
+9674694,20170606,20120523,Systems and methods for group communication using a mobile device with mode transition based on motion,US,24800
+9847341,20171219,20141021,Three-dimensional semiconductor memory device,KR,104604
+8874082,20141028,20060519,Apparatus and methods for protecting data on a wireless device,US,24800
+8597081,20131203,20110923,Chemical mechanical polishing apparatus having pad conditioning disk and pre-conditioner unit,KR,104604
+9584081,20170228,20141030,"Signal processing apparatus and method, program, and data recording medium",JP,9818
+10164110,20181225,20151030,Finfet including improved epitaxial topology,US,6066
+10312704,20190604,20140123,Power adapters for powering and/or charging peripheral devices,US,1690
+8516457,20130820,20110628,"Method, system and program storage device that provide for automatic programming language grammar partitioning",US,6066
+9721023,20170801,20141212,Search query obfuscation via broadened subqueries and recombining,US,6066
+9087524,20150721,20130117,"Optical recording medium drive device, tracking error detection method",JP,9818
+9710624,20170718,20141120,Implementing extent granularity authorization initialization processing in CAPI adapters,US,6066
+8473780,20130625,20120702,Efficient data storage in storage device arrays,US,1690
+9843367,20171212,20161208,Enhanced node B and method for precoding with reduced quantization error,US,6008
+8762919,20140624,20101119,Circuit macro placement using macro aspect ratio based on ports,US,6066
+8555019,20131008,20100908,Using a migration cache to cache tracks during migration,US,6066
+9604465,20170328,20160518,Ink-jet recording apparatus,JP,2721
+9525102,20161220,20140128,Method for manufacturing nanostructure semiconductor light emitting device,KR,104604
+8438193,20130507,20120328,Copy collector with efficient abort-on-copy transition to mark collector,US,6066
+10169005,20190101,20160303,Consolidating and reusing portal information,US,6066
+9338656,20160510,20120328,Conditional limited service grant based on device verification,US,6008
+9104476,20150811,20100826,Opportunistic multitasking of VOIP applications,US,1690
+9146723,20150929,20130603,Applying social computing paradigm to software installation and configuration,US,6066
+10284821,20190507,20150202,Imaging apparatus and imaging system,JP,2721
+9335697,20160510,20130708,Image forming apparatus having image bearing member life estimation unit,JP,2721
+8656130,20140218,20111223,Low latency and persistent data storage,US,6066
+10305789,20190528,20170306,Packet forwarding for quality of service delivery,US,6066
+8812783,20140819,20110511,"Operation apparatus, cache apparatus, and control method thereof",JP,2721
+8441651,20130514,20100827,Defect inspection apparatus and defect inspection method,JP,9818
+9134667,20150915,20130715,Fixing apparatus having cooling device for pressure roller,JP,2721
+9765295,20170919,20150710,Composition for culturing sanal and sanal culturing method using the same,KR,104604
+8392584,20130305,20090330,System and method for searching for session ID in wireless mobile IP communication system,KR,104604
+9473168,20161018,20150925,"Systems, methods, and apparatuses for compression using hardware and software",US,6008
+9733881,20170815,20150828,Managing digital object viewability for a transparent display system,US,6066
+9763047,20170912,20160928,Anonymizing location data,US,6066
+10135637,20181120,20161202,Method and apparatus for transmitting signal in communication system,KR,104604
+9836410,20171205,20150925,Burst translation look-aside buffer,US,24800
+9655006,20170516,20060602,System and method for controlling congestion in wireless mesh networks,KR,104604
+8996566,20150331,20121218,Method and system for backup and recovery,US,6066
+8522160,20130827,20100218,"Information processing device, contents processing method and program",JP,9818
+9768025,20170919,20160616,Semiconductor device and method of fabricating the same,KR,104604
+8877532,20141104,20120315,Method of manufacturing organic electroluminescence display device,JP,2721
+9157745,20151013,20110110,Scalable routing for mobile station navigation with location context identifier,US,24800
+9147932,20150929,20121008,Tunable multiband antenna with dielectric carrier,US,1690
+9894789,20180213,20141222,Structured fabrics for electronic devices,US,1690
+8445946,20130521,20031211,Gated diode memory cells,US,6066
+9360798,20160607,20130905,Developer replenishing apparatus and image forming apparatus with rotational velocity control,JP,2721
+9652580,20170516,20150512,Integrated circuit layout design system and method,KR,104604
+8677371,20140318,20091231,Mixed operating performance modes including a shared cache mode,US,6066
+10021264,20180710,20151119,Information processing apparatus and method for executing and controlling sequential processing,JP,2721
+8804611,20140812,20090804,Method and apparatus for acknowledging successful reception of a data transmission for multi-access compatibility in a wireless communication system,US,24800
+8711236,20140429,20120810,Blur correction device and imaging apparatus,JP,9818
+8817809,20140826,20080617,Communication link allocation based on dynamic trend analysis,US,24800
+9710595,20170718,20100224,Multi-view user interface for server cabling display,US,6066
+9977497,20180522,20140114,"Method for providing haptic effect set by a user in a portable terminal, machine-readable storage medium, and portable terminal",KR,104604
+9391020,20160712,20140625,Interconnect structure having large self-aligned vias,US,6066
+10468753,20191105,20160926,Electronic device,KR,104604
+9727348,20170808,20110429,Providing a context-aware help content using a transparent overlay on a touch sensitive screen,US,6066
+10362208,20190723,20171205,Method and apparatus for controlling a device identified from a screen input by a camera,KR,104604
+9978364,20180522,20160328,Pronunciation accuracy in speech recognition,US,6066
+9141623,20150922,20120803,System for on-line archiving of content in an object store,US,6066
+10448353,20191015,20180316,Method for managing registration and session in wireless communication system and apparatus for performing the same,KR,104604
+8751022,20140610,20070414,Multi-take compositing of digital media assets,US,1690
+9702538,20170711,20140502,Light source apparatus and image display apparatus,JP,9818
+9543909,20170110,20150227,"Amplifier, driving method for amplifier, and electronic circuit system",JP,9818
+10262586,20190416,20160811,Light-emitting diode display with threshold voltage compensation,US,1690
+9026066,20150505,20141006,Mobile communication terminal for PTT and method for processing missed call information thereof,KR,104604
+9344942,20160517,20130125,Application-layer handoff of an access terminal from a first system of an access network to a second system of the access network during a communication session within a wireless communications system,US,24800
+10205874,20190212,20161109,Wearable device and control method thereof,KR,104604
+10200720,20190205,20140423,Method and apparatus for transmitting and receiving packet in a communication system,KR,104604
+8748882,20140610,20110126,"Thin film transistor, electronic device, display device, and method of manufacturing thin film transistor",JP,9818
+8578288,20131105,20100714,Three state icon for operations,US,1690
+9535865,20170103,20111222,Interconnection of multiple chips in a package,US,6008
+9083983,20150714,20120625,Motion vector predictor candidate clipping removal for video coding,US,24800
+9865820,20180109,20150114,Condensed cyclic compound and organic light-emitting device including the same,KR,104604
+8897803,20141125,20120113,Finding wireless network access points,US,1690
+10298468,20190521,20140118,"Provisioning persistent, dynamic and secure cloud services",US,6008
+9824719,20171121,20150930,Automatic music recording and authoring tool,US,1690
+10455428,20191022,20140530,"System and method for managing utilization of un-licensed frequency spectrum resources for secondary systems, and a non-transitory computer-readable medium",JP,9818
+10412265,20190910,20160928,Information processing apparatus that displays a prompt to move the apparatus and information processing method,JP,2721
+8358351,20130122,20090605,Automatic tone mapping for cameras,US,1690
+8637358,20140128,20120705,Field-effect-transistor with self-aligned diffusion contact,US,6066
+8509430,20130813,20100917,Storage devices having a security function and methods of securing data stored in the storage device,KR,104604
+8589801,20131119,20101129,Display screen user identification card for access to secured databases,US,6066
+9059163,20150616,20131017,Structure for logic circuit and serializer-deserializer stack,US,6066
+10256185,20190409,20171025,Nitridization for semiconductor structures,US,6066
+10079234,20180918,20170628,Metal-insulator-metal capacitor analog memory unit cell,US,6066
+9961628,20180501,20150211,Scan channel reduction to improve Wi-Fi system power,US,24800
+9449153,20160920,20130128,Unique and unclonable platform identifiers using data-dependent circuit path responses,US,24800
+9625972,20170418,20120314,Method of reducing power consumption of system software using query scheduling of application and apparatus for reducing power consumption using the method,KR,104604
+9041148,20150526,20130613,Metal-insulator-metal capacitor structures,US,24800
+9715317,20170725,20150615,Electronic device using electromagnetic field for user input,KR,104604
+9612988,20170404,20130723,Donor cores to improve integrated circuit yield,US,6066
+8869117,20141021,20131119,Capturing multi-component trace for unit of work,US,6066
+8913279,20141216,20130315,"Information processing apparatus that provides hot folders, information processing method, and non-transitory computer-readable medium",JP,2721
+9029751,20150512,20120626,"Image sensor, imaging apparatus, and imaging method",JP,9818
+9380369,20160628,20130214,Microphone seal,US,1690
+9606829,20170328,20141011,Suspending transactional-memory transactions without stack corruption,US,6066
+9622147,20170411,20140911,System and method for performing hybrid automatic repeat request (HARQ) in a WLAN system,US,1690
+8504091,20130806,20090126,Interference mitigation for control channels in a wireless communication network,US,24800
+8490571,20130723,20080227,"Coater, method for manufacturing coated article, and fluid blowing unit",JP,2721
+8407080,20130326,20100823,Managing and monitoring continuous improvement in information technology services,US,6066
+9351264,20160524,20131004,Method and apparatus for detecting cell outage and controlling transmission power,KR,104604
+9355904,20160531,20140623,Method for strain-relieved through substrate vias,US,24800
+8685308,20140401,20120131,Injection mold for washing machine diaphragms,KR,104604
+9424736,20160823,20140905,Asset-based weather and event alerts,US,6066
+9780526,20171003,20151105,Semiconductor-laser-device assembly,JP,9818
+9330785,20160503,20150429,Read operation based aging sensor for static random access memory (SRAM),US,24800
+10257452,20190409,20180425,"Solid-state image pickup apparatus, signal processing method for a solid-state image pickup apparatus, and electronic apparatus",JP,9818
+8699912,20140415,20111110,Developing cartridge and image forming apparatus having the same,KR,104604
+9955494,20180424,20160429,WWAN and Wlan cooperative support of multi-SIM devices,US,24800
+10521009,20191231,20170517,Method and apparatus for facilitating interaction with virtual reality equipment,KR,104604
+8980737,20150317,20130315,Methods of forming contact regions using sacrificial layers,US,6066
+10438629,20191008,20181227,Disc storage cassettes comprising track connectors,US,6066
+10446873,20191015,20161230,Solid-state battery,US,6008
+8620098,20131231,20100608,Trees for adaptive coding of images and videos using set partitioning in generalized hierarchical trees having directionality,JP,9818
+8836840,20140916,20121207,"A/D converter, solid-state image sensing device, and camera system",JP,9818
+9996420,20180612,20150622,Error-correction encoding and decoding,US,6066
+10091695,20181002,20151030,"Method for assigning and managing reference signals in a multi-cell environment, and network device and terminal for applying the method",KR,104604
+10482960,20191119,20160217,Dual demarcation voltage sensing before writes,US,6008
+10367637,20190730,20160722,Modular exponentiation with transparent side channel attack countermeasures,US,24800
+9906512,20180227,20150728,Flexible revocation of credentials,US,6066
+9638747,20170502,20131227,Placing integrated circuit devices using perturbation,US,6008
+10460757,20191029,20181105,Management of head and media dimensional stability,US,6066
+9357299,20160531,20121116,Active protection for acoustic device,US,1690
+10216456,20190226,20160722,Estimating mount time completion in file systems,US,6066
+9148236,20150929,20130313,Optimized HARQ recombining within transmission window,US,24800
+9792066,20171017,20150223,Handling failure of a command to add a record to a log,US,6066
+10073716,20180911,20160721,System and method to control heat dissipation through service level analysis,US,6066
+9536923,20170103,20130220,Solid-state image pickup device and image pickup system,JP,2721
+8838801,20140916,20120716,Cloud optimization using workload analysis,US,6066
+9525064,20161220,20151216,Channel-last replacement metal-gate vertical field effect transistor,US,6066
+8861746,20141014,20110307,"Sound processing apparatus, sound processing method, and program",JP,9818
+10043056,20180807,20180216,Analyzing writing using pressure sensing touchscreens,US,6066
+8582642,20131112,20081215,"Transmitting system and receiving system for processing stream, and stream processing methods thereof",KR,104604
+8427471,20130423,20120508,"Program execution system, program execution device and recording medium and computer executable program therefor",JP,9818
+10170690,20190101,20160324,Hybrid-fl with edge-modified coupling,KR,104604
+9626904,20170418,20141007,"Display device, electronic device, and driving method of display device",JP,9818
+8560623,20131015,20120402,Reducing email message size,US,6066
+10523913,20191231,20170630,Packed image format for multi-directional video,US,1690
+9439325,20160906,20131021,Coolant-cooled heat sink configured for accelerating coolant flow,US,6066
+9678790,20170613,20150707,Devices and methods implementing operations for selective enforcement of task dependencies,US,24800
+8644094,20140204,20120522,Semiconductor memory devices including precharge using isolated voltages,KR,104604
+10142197,20181127,20151201,Visualizing distributions of correlated data,US,6066
+9119562,20150901,20120711,"Imaging control apparatus, ophthalmic imaging apparatus, imaging control method, and program",JP,2721
+8589777,20131119,20000121,Method and system for calculating cost of a compilation of content,US,6066
+10120623,20181106,20171127,"Image forming apparatus enabling charging management, control method therefor, and storage medium storing control program therefor",JP,2721
+10020964,20180710,20170210,Channel estimation for wireless systems without matrix inversion,JP,9818
+9959918,20180501,20161020,"Memory device and system supporting command bus training, and operating method thereof",KR,104604
+9494694,20161115,20151209,Method and apparatus of road location inference for moving object,US,6066
+8775504,20140708,20100406,"Document management system, document management method and recording medium",JP,2721
+9343912,20160517,20120229,Power charging device and mobile terminal apparatus,JP,9818
+8928910,20150106,20081029,"Information processing apparatus, control method therefor, and computer readable medium for indicating a last page and blank pages in bookbinding printing",JP,2721
+9634828,20170425,20141216,Flexible architecture and instruction for advanced encryption standard (AES),US,6008
+9092333,20150728,20130104,Fault isolation with abstracted objects,US,6066
+9245896,20160126,20140214,Junction field-effect floating gate quantum dot memory switch,US,6066
+9603085,20170321,20110215,Methods and apparatus providing intelligent radio selection for legacy and non-legacy applications,US,24800
+8938129,20150120,20120430,Display system with edge map conversion mechanism and method of operation thereof,KR,104604
+10446222,20191015,20161207,Memory subsystem I/O performance based on in-system empirical testing,US,6008
+9558058,20170131,20160517,Technology for stall detection,US,6066
+10139584,20181127,20150220,Lens apparatus and optical apparatus,JP,2721
+9938102,20180410,20170119,Sheet conveying apparatus and image forming apparatus,JP,2721
+8625902,20140107,20110728,Object recognition using incremental feature extraction,US,24800
+10235361,20190319,20170215,Context-aware translation memory to facilitate more accurate translation,US,6066
+10171987,20190101,20171220,IMPI-based personalization,US,24800
+9585103,20170228,20150123,Techniques for controlling transmission power in shared radio frequency spectrum,US,24800
+9026185,20150505,20120912,"Communication apparatus, control method thereof, and storage medium",JP,2721
+8392489,20130305,20080215,ASCII to binary floating point conversion of decimal real numbers on a vector processor,US,6066
+9928253,20180327,20140117,Method of generating search information and image apparatus using the same,KR,104604
+10419489,20190917,20170504,Unidirectional trust based decision making for information technology conversation agents,US,6066
+9893816,20180213,20160325,Dynamic beam steering optoelectronic packages,US,6008
+9088923,20150721,20120904,Small cells implementing multiple air interfaces,US,6008
+8684509,20140401,20120319,"Ink jet ink, ink cartridge, and ink jet recording method",JP,2721
+9094113,20150728,20130315,Apparatus and method for reducing phase noise in near field communication device signaling,US,24800
+9386408,20160705,20140225,Generic positioning protocol,US,24800
+10416814,20190917,20170922,"Information processing apparatus to display an image on a flat surface, method of controlling the same, and storage medium",JP,2721
+8620154,20131231,20100716,Methods and apparatus for fast and energy-efficient light recovery in a visible light communication (VLC) system,KR,104604
+8442441,20130514,20050729,Traffic interference cancellation,US,24800
+8665834,20140304,20081201,Method and apparatus for transceiving data using directional beam in wireless personal area network,KR,104604
+8386211,20130226,20080815,Monitoring virtual worlds to detect events and determine their type,US,6066
+9361007,20160607,20140917,Graphical interface data fragment operations for data visualization,US,6066
+8930185,20150106,20100712,"Speech feature extraction apparatus, speech feature extraction method, and speech feature extraction program",US,6066
+8799558,20140805,20111014,Indexing method for flash memory,KR,104604
+10291366,20190514,20170522,"Method, user equipment and base station for controlling discontinuous reception (DRX) in wireless communication system",KR,104604
+9767787,20170919,20140101,Artificial utterances for speaker verification,US,6066
+9802410,20171031,20120724,Ink jet print head,JP,2721
+9251828,20160202,20120704,Servo control,US,6066
+9246435,20160126,20150209,Method to pre-charge crystal oscillators for fast start-up,US,24800
+9296580,20160329,20140714,"Auto document feeder, scanner including the same, and method of controlling auto document feeding",KR,104604
+8914801,20141216,20100527,"Hardware instructions to accelerate table-driven mathematical computation of reciprocal square, cube, forth root and their reciprocal functions, and the evaluation of exponential and logarithmic families of functions",US,6066
+9313251,20160412,20150219,Sharing a configuration state of a client device that meets a threshold level of QoE,US,6066
+8903966,20141202,20110601,Re-programming programmable hardware devices without system downtime,US,6066
+9574294,20170221,20150225,Washing machine using bubbles,KR,104604
+8953231,20150210,20131211,Document reading apparatus and document reading method,JP,2721
+10386992,20190820,20131204,Display device for executing a plurality of applications and method for controlling the same,KR,104604
+8503678,20130806,20091223,Suppressing power supply noise using data scrambling in double data rate memory systems,US,6008
+9467121,20161011,20140826,Apparatus and method for compensating for process variation in electronic device,KR,104604
+10317615,20190611,20171227,Outdoor display apparatus,KR,104604
+10027675,20180717,20171214,Determining virtual adapter access controls in a computing environment,US,6066
+8509159,20130813,20080115,Method and system for wireless communication using out-of-band channels,KR,104604
+9891829,20180213,20170306,Storage of data with verification in a dispersed storage network,US,6066
+8762864,20140624,20080806,Background removal tool for a presentation application,US,1690
+10198472,20190205,20160609,Outer join optimizations in database management systems,US,6066
+9621866,20170411,20140310,"Image processing apparatus, image processing method, and program",JP,2721
+9625837,20170418,20140709,Imprint apparatus and method of manufacturing article,JP,2721
+10025059,20180717,20150706,Optical apparatus,JP,2721
+10423246,20190924,20160621,Input device and electronic apparatus for receiving signal from the input device,KR,104604
+9348282,20160524,20150630,Fixing member,JP,2721
+9945956,20180417,20150908,GNSS positioning using three-dimensional building models,US,1690
+8898422,20141125,20120827,Workload-aware distributed data processing apparatus and method for processing large data based on hardware acceleration,KR,104604
+9985939,20180529,20160517,"Server system, method of controlling server system, and storage medium, for providing a service based on authorization information",JP,2721
+8547479,20131001,20121003,Display apparatus and control method thereof,JP,2721
+8866916,20141021,20130812,"Image output apparatus, control method, and computer-readable storage medium for providing an output operation regardless of a connection state between apparatuses",JP,2721
+10312341,20190604,20171128,Integrated circuit device and method of manufacturing the same,KR,104604
+8836974,20140916,20110218,Image processing system and control method for managing a job related to image processing in a distributed environment,JP,2721
+8969964,20150303,20131009,Embedded silicon germanium N-type field effect transistor for reduced floating body effect,US,6066
+9288380,20160315,20140623,Imaging device and electronic apparatus,JP,9818
+9240746,20160119,20120907,Driving apparatus for vibration-type actuator,JP,2721
+10490184,20191126,20170616,Voice recognition apparatus and method,KR,104604
+8736788,20140527,20060612,Liquid crystal display device having improved cooling efficiency,KR,104604
+9886432,20180206,20150828,Parsimonious handling of word inflection via categorical stem + suffix N-gram language models,US,1690
+8760192,20140624,20120629,Programmable circuit including differential amplifier circuit,KR,104604
+9484529,20161101,20160414,Magnetic memory device,KR,104604
+9471343,20161018,20150831,Dynamic code injection,US,6066
+9558255,20170131,20140311,Managing replication configuration availability,US,6066
+10382928,20190813,20160119,Internet of things device and communication method thereof,KR,104604
+10103580,20181016,20160516,Wireless power transmission apparatus and method,KR,104604
+9825751,20171121,20130522,"Communication control device, communication control method, program, terminal device, and communication control system",JP,9818
+9224046,20151229,20150119,Multi-view object detection using appearance model transfer from similar scenes,US,6066
+9560620,20170131,20150429,Methods and systems for enhanced round trip time (RTT) exchange,US,24800
+9130958,20150908,20100728,"Terminal, seed server, and tracker server for reducing delay in streaming service",KR,104604
+9569381,20170214,20141114,Scheduler for memory,KR,104604
+9087148,20150721,20130819,Automated role adjustment in a computer system,US,6066
+10002085,20180619,20151112,Peripheral component interconnect (PCI) device and system including the PCI,KR,104604
+9783204,20171010,20150202,Cognitive displays,US,6066
+9141406,20150922,20121003,Method and system to provide a user interface with respect to a plurality of applications,KR,104604
+9818786,20171114,20160831,Imaging device including wirings that overlap photoelectric conversions units,JP,9818
+8963587,20150224,20130514,Clock generation using fixed dividers and multiplex circuits,US,1690
+9189486,20151117,20130307,Autonomic generation of document structure in a content management system,US,6066
+8791888,20140729,20120914,"Pixel circuit, display device, driving method of pixel circuit, and driving method of display device",JP,9818
+9073340,20150707,20111011,Ink jet printing apparatus and ink jet printing method with varied relative bias of printing permission ratio between print modes,JP,2721
+8446917,20130521,20090528,Methods and apparatus for efficiently communicating information using a proxy,US,24800
+9041783,20150526,20110121,"Shutter glasses, display apparatus and control method thereof",KR,104604
+9152949,20151006,20060517,Methods and apparatus for identifying spam email,US,6066
+9041283,20150526,20130827,Light-emitting device package,KR,104604
+9621842,20170411,20160420,"Camera system, video processing apparatus, and camera apparatus",JP,9818
+10434772,20191008,20180601,Printhead and printing apparatus,JP,2721
+10310558,20190604,20170425,Apparatus and method for computing node and seat connection for conductive fabric,US,6008
+9558121,20170131,20121228,Two-level cache locking mechanism,US,6008
+9157991,20151013,20140716,Mechanism for proximity detection based on Wi-Fi signals,US,6008
+9537675,20170103,20091103,Method and apparatus for transmitting and receiving personal broadcasting data based on peer-to-peer communication,KR,104604
+9270400,20160223,20141027,Determining proximity of user equipment for device-to-device communication,US,6008
+9064824,20150623,20131112,In-situ annealing for extending the lifetime of CMOS products,US,6066
+9753862,20170905,20161025,Hybrid replacement policy in a multilevel cache memory hierarchy,US,6066
+9243835,20160126,20120813,Refrigerator,KR,104604
+9798745,20171024,20140913,"Methods, devices and systems for caching data items",KR,104604
+9965219,20180508,20160225,Synchronizing a cursor based on consumer and producer throughputs,US,6066
+10361078,20190723,20170727,Method of forming fine patterns of a semiconductor device,KR,104604
+9767395,20170919,20151019,Image forming apparatus with copy history and control method for the same,JP,2721
+10114593,20181030,20150722,"Information processing apparatus that requires authentication of user, control method therefor, and storage medium",JP,2721
+8743297,20140603,20110921,Liquid crystal light adjusting device and imaging apparatus,JP,9818
+9652006,20170516,20111221,Power management in a discrete memory portion,US,6008
+8861610,20141014,20140113,Method and apparatus for encoding and decoding motion vector by obtaining motion vector predictor candidate using co-located block,KR,104604
+9407700,20160802,20140617,Intelligent discovery of network information from multiple information gathering agents,US,6066
+9692658,20170627,20140709,"Wireless network monitoring device, method and device in wireless communication system",JP,9818
+9736834,20170815,20140922,"Apparatus, method, and system of inter-node communication",US,6008
+8830753,20140909,20110729,"NonVolatile memory devices, methods of programming the same, and memory systems including the same",KR,104604
+9291946,20160322,20140911,"Developing device having overlapping seal members, and process cartridge",JP,2721
+9292560,20160322,20140828,Reducing collisions within a hash table,US,6066
+9653040,20170516,20161122,Display driver capable of driving multiple display interfaces,US,6008
+8717324,20140506,20130221,Method of interfacing with multi-point display device,JP,2721
+9515031,20161206,20111229,Mitigation of far-end crosstalk induced by routing and out-of-plane interconnects,US,6008
+9046617,20150602,20111025,Radiation imaging apparatus,JP,2721
+8995359,20150331,20100916,Method and apparatus to facilitate support for multi-radio coexistence,US,24800
+10455456,20191022,20180202,Method and apparatus for transmitting data in a mobile communication system,KR,104604
+9983511,20180529,20161020,Image forming apparatus having reverse developer feeding,JP,2721
+10459809,20191029,20170630,Stacked memory chip device with enhanced data protection capability,US,6008
+9040842,20150526,20130422,Mechanical adhesion of copper metallization to dielectric with partially cured epoxy fillers,US,6008
+8838085,20140916,20120426,Use of proximity sensors for interacting with mobile devices,US,24800
+8469724,20130625,20111230,Bus bar for power distribution on a printed circuit board,US,6066
+9513588,20161206,20150715,Image forming apparatus for forming an image on a recording material,JP,2721
+9529477,20161227,20150223,Touch screen panel using digitally encoded light,US,24800
+8624920,20140107,20090109,"Image processing apparatus, printing apparatus, and image processing method",JP,2721
+10521410,20191231,20151120,Semantic graph augmentation for domain adaptation,US,6066
+9443260,20160913,20061221,"System, method, and computer program product for catalog adaptation",US,6066
+8553247,20131008,20041213,"Image processing apparatus, control method, storing medium having computer-readable program therein, and program",JP,2721
+9176778,20151103,20130305,Background collective operation management in a parallel computer,US,6066
+10373360,20190806,20170302,Systems and methods for content-adaptive image stitching,US,24800
+8704769,20140422,20080808,Ambidextrous mouse,US,1690
+10032819,20180724,20160113,Image sensors and methods of forming the same,KR,104604
+8433302,20130430,20080527,System and method for downloading and activating themes on a wirelesss device,US,24800
+9627423,20170418,20150825,Solid-state image pickup apparatus and image pickup system having a clipping circuit arranged close to an N-row signal mixing region,JP,2721
+10001954,20180619,20141117,"Information processing apparatus, method for controlling the same, and storage medium to identify a function of a register printing apparatus based on printing apparatus type and to display a print screen based on identified function",JP,2721
+8398208,20130319,20090116,Ceramic printed circuit board (PCB) and inkjet printhead assembly using the same,KR,104604
+9401902,20160726,20140116,Method for exchanging strong encryption keys between devices using alternate input methods in wireless personal area networks (WPAN),US,6008
+10366538,20190730,20151019,Method and device for illustrating a virtual object in a real environment,US,1690
+9017591,20150428,20120418,Method for manufacturing seamless belt for electrophotography,JP,2721
+8701511,20140422,20110322,Inert gas delivery system for electrical inspection apparatus,US,6066
+8867623,20141021,20081023,"Method for turbo transmission of digital broadcasting transport stream, a digital broadcasting transmission and reception system, and a signal processing method thereof",KR,104604
+9491769,20161108,20120918,Method and system for implementing mobile relay,KR,104604
+8391756,20130305,20100512,Image forming apparatus having plurality of image transfer units with stable image transfers,JP,2721
+9922689,20180320,20160401,Memory mapping,US,6008
+9787816,20171010,20150730,Method for reproducing contents and an electronic device thereof,KR,104604
+8913168,20141216,20130314,Solid-state image sensor and image sensing apparatus,JP,2721
+8456515,20130604,20060725,Stereo image and video directional mapping of offset,US,24800
+9934882,20180403,20150511,"Amine compound and ionic conductive agent, and electroconductive resin composition",JP,2721
+10025619,20180717,20171103,Accounting and enforcing non-process execution by container-based software transmitting data over a network,US,6066
+8588795,20131119,20090406,Scheduling apparatus and method in a distributed antenna system,KR,104604
+8498589,20130730,20080714,Polar modulator with path delay compensation,US,24800
+10416698,20190917,20111219,Proximity control using WiFi connection,KR,104604
+8725143,20140513,20090818,Methods and systems for handover in WiMAX networks,US,24800
+8606570,20131210,20090623,"Imaging apparatus, method of controlling same and computer program therefor",JP,2721
+9966974,20180508,20120112,Apparatus and method for providing compatibility of transmission signal in communication system,KR,104604
+9576958,20170221,20160609,Forming a semiconductor structure for reduced negative bias temperature instability,US,6066
+8413460,20130409,20100622,Lever for dispenser and refrigerator having the same,KR,104604
+9678749,20170613,20141222,Instruction and logic for shift-sum multiplier,US,6008
+10236917,20190319,20160915,Providing memory bandwidth compression in chipkill-correct memory architectures,US,24800
+9565546,20170207,20150630,Enhanced system acquisition while roaming,US,24800
+9495805,20161115,20111220,Three dimensional (3D) display terminal apparatus and operating method thereof,KR,104604
+9736398,20170815,20150413,"X-ray detecting method, photographing method using the X-ray detecting method, and X-ray detector using the methods",KR,104604
+9992184,20180605,20160204,"Method of using server, server reservation control apparatus and program storage medium",JP,9818
+8570397,20131029,20111013,Image pickup device and method of picking up image using the same,KR,104604
+10345825,20190709,20170103,Detecting an illumination need,US,6066
+8355401,20130115,20110802,Controlling access to a destination in a data processing network,US,6066
+10497194,20191203,20171013,Communications system and communications apparatus,JP,9818
+10481980,20191119,20180329,Enabling segmented source data introspection within dispersed storage network (DSN) memory,US,6066
+9372643,20160621,20130412,Data set management,US,6066
+8432237,20130430,20090814,"Output circuit with integrated impedance matching, power combining and filtering for power amplifiers and other circuits",US,24800
+9070783,20150630,20080227,Semiconductor device and method of manufacturing the same,JP,9818
+8566418,20131022,20060504,Configurable system for using Internet services on CE devices,KR,104604
+9684992,20170620,20141203,Visualization of objects along a street,US,6066
+10342085,20190702,20170908,Back light device and controlling method thereof,KR,104604
+9264230,20160216,20110314,Secure key management,US,6066
+9923022,20180320,20160701,Array of optoelectronic structures and fabrication thereof,US,6066
+9932195,20180403,20170411,"Sheet conveying apparatus, sheet processing apparatus and image forming apparatus",JP,2721
+8493625,20130723,20101115,Determining composite color for dithered object and contone object,JP,2721
+8964999,20150224,20110311,Audio reproduction device and audio reproduction method,JP,9818
+9525686,20161220,20160516,Captcha challenge incorporating obfuscated characters,US,6066
+9684578,20170620,20141030,Embedded universal serial bus (USB) debug (EUD) for multi-interfaced debugging in electronic systems,US,24800
+9043929,20150526,20120703,Minimizing sensitive data exposure during preparation of redacted documents,US,6066
+9880980,20180130,20070305,Document transformation performance via incremental fragment transformations,US,6066
+9131432,20150908,20130205,Method and apparatus for efficient and dynamic system reselection procedure for M2M stationary devices,US,24800
+9178051,20151103,20120420,Semiconductor device,KR,104604
+8413098,20130402,20090429,"T-connections, methodology for designing T-connections, and compact modeling of T-connections",US,6066
+8837905,20140916,20100917,Method and apparatus for providing movement guide in video recording device,KR,104604
+8830251,20140909,20100723,Method and system for creating an image,KR,104604
+9829836,20171128,20160617,Image forming apparatus with pre-exposure member,JP,2721
+10277780,20190430,20180103,"Client device, system, information processing method, and recording medium adapted for changing an authentication mode from an individual authentication mode to a common authentication in a case where a transmission of at least first operation information has failed due to an authentication error",JP,2721
+9990197,20180605,20170822,Memory management in secure enclaves,US,6008
+10084551,20180925,20170223,Generic network infrastructure for nano-communication,US,6066
+10250080,20190402,20160331,"Detector, power transmitter, power receiver, power feed system, and detection method",JP,9818
+8937633,20150120,20130313,"Lighting apparatus, control method therefor and backlight apparatus",JP,2721
+9118356,20150825,20130315,Data transport in portable electronic devices,US,1690
+8364304,20130129,20100714,Methods and apparatus for laser scribing wafers,US,6008
+9047172,20150602,20121129,Adaptive power control of memory map storage devices,US,6008
+9184218,20151110,20141003,Semiconductor memory device having three-dimensional cross point array,KR,104604
+9462946,20161011,20150309,Ophthalmologic apparatus and control method for the same,JP,2721
+9373800,20160621,20150116,Organic light emitting element having lithium—boron complex,JP,2721
+8705457,20140422,20080626,Apparatus and method for transmitting control channel for frequency resource allocation in a wireless communication system,KR,104604
+9818655,20171114,20151208,Method and structure for flip-chip package reliability monitoring using capacitive sensors groups,US,6066
+9282151,20160308,20080911,Flow control in a distributed environment,US,6066
+9367280,20160614,20130806,Dual screen visibility with virtual transparency,US,6008
+8667431,20140304,20130305,Test coverage of integrated circuits with masking pattern selection,US,6066
+8718541,20140506,20071231,Techniques for optimal location and configuration of infrastructure relay nodes in wireless networks,US,6008
+10468491,20191105,20180703,Low resistance contact for transistors,US,6066
+9298855,20160329,20080611,Optimization-based visual context management,US,6066
+8941564,20150127,20130116,Display device,JP,9818
+9098521,20150804,20120112,System and method for managing resources and threshsold events of a multicore portable computing device,US,24800
+9904716,20180227,20161102,Optimal analytic workflow,US,6066
+8698791,20140415,20110531,Display apparatus and driving method for the same,JP,2721
+9628947,20170418,20131204,Wearable map and image display,US,6008
+9231738,20160105,20110105,Communication method for relay node and next node of the relay node for network coding,KR,104604
+8421382,20130416,20120606,Apparatus motor control method,JP,2721
+9971517,20180515,20170322,Accelerated non-volatile memory recirculation processing,US,6066
+8866228,20141021,20110923,Diode and electrostatic discharge protection circuit including the same,KR,104604
+8655696,20140218,20090115,"System for performing schedule management, schedule management method and program",US,6066
+10102240,20181016,20141111,Managing event metrics for service management analytics,US,6066
+10163053,20181225,20170106,Coded tags encoded using different magnetic materials and systems of detecting coded tags,US,6066
+8705650,20140422,20130802,"Wireless communication system, wireless communication apparatus, and wireless communication method",JP,9818
+9142036,20150922,20130411,"Methods for segmenting and encoding an image, and corresponding devices",JP,2721
+9928100,20180327,20150929,Adjusting virtual machine migration plans based on alert conditions related to future migrations,US,6066
+9330088,20160503,20130423,Preventing frustration in online chat communication,US,6066
+9165229,20151020,20130913,Print control apparatus and method for printing images on a continuous sheet,JP,2721
+9495162,20161115,20111223,Apparatus and method for performing a permute operation,US,6008
+10102152,20181016,20160411,Protecting a memory from unauthorized access,US,6066
+10210279,20190219,20101028,"Method, apparatus and software for differentiating two or more data sets having common data set identifiers",US,6066
+10165002,20181225,20170223,Identifying an imposter account in a social network,US,6066
+8713027,20140429,20100108,Methods and systems for managing electronic messages,US,24800
+10015298,20180703,20150831,Phone user interface,US,1690
+9229244,20160105,20131218,"Image-blur correction device, image-blur correction method, and image capture apparatus",JP,9818
+8724647,20140513,20120913,Searchable television commercials,US,6066
+8390747,20130305,20120315,Electronic device in which an electronic component is mounted on a main board,KR,104604
+9812571,20171107,20150930,Tensile strained high percentage silicon germanium alloy FinFETs,US,6066
+10462063,20191029,20170123,Method and apparatus for detecting packet,KR,104604
+9113547,20150818,20081024,Same layer microelectronic circuit patterning using hybrid laser projection patterning (LPP) and semi-additive patterning(SAP),US,6008
+8947113,20150203,20120507,Methods for modeling tunable radio-frequency elements,US,1690
+8488506,20130716,20110628,Oscillator settling time allowance,US,24800
+8368329,20130205,20030911,Method and apparatus for improved cooling fans,US,1690
+9331712,20160503,20150821,Compressed caching in a virtual memory system,US,24800
+9384430,20160705,20150917,"Image processing apparatus, image processing method, and storage medium",JP,2721
+10162687,20181225,20121228,Selective migration of workloads between heterogeneous compute elements based on evaluation of migration performance benefit and available energy and thermal budgets,US,6008
+9900001,20180220,20150423,RF circuit with switch transistor with body connection,US,24800
+9413361,20160809,20150128,Closed loop clock signal generator with multiple reference clocks,US,1690
+9928802,20180327,20130207,Display apparatus for displaying additional information on transparent display region,KR,104604
+9477378,20161025,20130313,Method and apparatus for providing a user interface,KR,104604
+8686796,20140401,20110419,RF power amplifiers with improved efficiency and output power,US,24800
+8592268,20131126,20130415,Semiconductor structures using replacement gate and methods of manufacture,US,6066
+9659502,20170523,20151218,Drone range extension via host vehicles,US,6066
+9041814,20150526,20121114,Automatic tracking camera system,JP,2721
+9798782,20171024,20140605,Re-sizing data partitions for ensemble models in a mapreduce framework,US,6066
+9360898,20160607,20110421,Method and terminal for providing user interface using tilt sensor and key input,KR,104604
+9277085,20160301,20140812,"Information processing apparatus enabling transmission of file containing link information, control method therefor, and storage medium storing control program therefor",JP,2721
+9958637,20180501,20140728,Optical device having improved impact resistance,JP,2721
+8862999,20141014,20101122,Dynamic de-identification of data,US,6066
+8396316,20130312,20100312,Method and apparatus for processing image,KR,104604
+9219298,20151222,20130315,Removal of spurious microwave modes via flip-chip crossover,US,6066
+9417803,20160816,20120628,Adaptive mapping of logical addresses to memory devices in solid state drives,US,1690
+10126766,20181113,20160721,Low dropout voltage (LDO) regulator including a dual loop circuit and an application processor and a user device including the same,KR,104604
+9477437,20161025,20150622,Sharing a graphics-processing-unit display port,US,1690
+9825410,20171121,20160908,High-speed connector system,US,1690
+9306453,20160405,20150130,DC/DC converter and an image forming apparatus to which a power is supplied from the DC/DC converter,JP,2721
+9866555,20180109,20151223,Maintaining user authentications with common trusted devices,US,6008
+8949328,20150203,20110713,Performing collective operations in a distributed processing system,US,6066
+10522781,20191231,20180611,Electroluminescence device and display device,JP,9818
+9142730,20150922,20140522,Method of manufacturing semiconductor light emitting device,KR,104604
+10304995,20190528,20140306,Flexible electric device and method of manufacturing the same,KR,104604
+9505250,20161129,20150512,Image forming system and network management device including an image forming apparatus and an accessory device,JP,2721
+8412931,20130402,20071227,Techniques for credential strength analysis via failed intruder access attempts,US,1690
+9712302,20170718,20150529,Frame structure design for new carrier type (NCT),US,6008
+10462411,20191029,20180423,Techniques for video analytics of captured video content,US,6008
+9934863,20180403,20170112,Dynamically adjusting read voltage in a NAND flash memory,US,6066
+8913140,20141216,20120829,Rolling shutter reduction based on motion sensors,US,1690
+9645516,20170509,20151109,"Electrophotographic photosensitive member, process cartridge and electrophotographic apparatus",JP,2721
+8653597,20140218,20130111,Solutions for controlling bulk bias voltage in an extremely thin silicon-on-insulator (ETSOI) integrated circuit chip,US,6066
+8750327,20140610,20130809,"Wireless communication system, wireless communication apparatus, wireless communication method, and computer program",JP,9818
+9536493,20170103,20140924,Display apparatus and method of controlling display apparatus,KR,104604
+9865698,20180109,20160225,Semiconductor device blocking leakage current and method of forming the same,KR,104604
+8429193,20130423,20090109,Security control of analysis results,US,6066
+10316165,20190611,20170921,Non-halogenated flame retardant hindered amine light stabilizer cross-linkers,US,6066
+8401200,20130319,20091119,Electronic device and headset with speaker seal evaluation capabilities,US,1690
+9917005,20180313,20170221,Semiconductor structure with airgap,US,6066
+8891473,20141118,20121109,Deduplicated data processing congestion control,US,6066
+9147403,20150929,20121214,Responding to a call to action contained in an audio signal,US,24800
+9697538,20170704,20160919,Product recommendations based on analysis of social experiences,US,6066
+8932736,20150113,20110210,Organic compound and organic light-emitting device,JP,2721
+9086831,20150721,20140725,Information processing system comprising one or more apparatuses which manage job information of a job,JP,2721
+9130952,20150908,20140206,Method and apparatus for searching metadata,US,1690
+10042760,20180807,20160603,Scalable cloud storage architecture,US,6066
+8990442,20150324,20121120,Configuring signals based on device conditions,US,6008
+9607118,20170328,20160419,Evaluating on-chip voltage regulation,US,6066
+9384883,20160705,20140114,Nested through glass via transformer,US,24800
+9898104,20180220,20161101,"Electronic terminal, input correction method, and program",JP,9818
+9934028,20180403,20170109,Tracking changes within javascript object notation,US,6066
+9420286,20160816,20130613,Temporal motion vector prediction in HEVC and its extensions,US,24800
+9946327,20180417,20150219,Thermal mitigation with power duty cycle,US,24800
+8913508,20141216,20100830,Real-time charging system and method for managing QoS and charging rule of service,KR,104604
+8693940,20140408,20120329,"Control apparatus, control method for control apparatus, and storage medium",JP,2721
+10324865,20190618,20160906,Maintaining ordering requirements while converting protocols in a communications fabric,US,1690
+9544571,20170110,20120322,"Image pickup unit, image pickup device, picture processing method, diaphragm control method, and program",JP,9818
+8421239,20130416,20100316,Crenulated wiring structure and method for integrated circuit interconnects,US,6066
+9906464,20180227,20141204,Optimization of multimedia service over an IMS network,US,6066
+8513731,20130820,20091016,Vertical type semiconductor device,KR,104604
+9812557,20171107,20160426,Method of manufacturing semiconductor device,KR,104604
+8871383,20141028,20120713,Cell,JP,9818
+8994741,20150331,20130226,Streaming translation in display pipe,US,1690
+10476667,20191112,20180929,"SM4 acceleration processors, methods, systems, and instructions",US,6008
+9313753,20160412,20090630,Method and device for controlling hand-over message transmission power in a mobile communications system,KR,104604
+10366035,20190730,20170329,Single wire communication board-to-board interconnect,US,6008
+9590089,20170307,20111230,Variable gate width for gate all-around transistors,US,6008
+8617991,20131231,20120619,Method of manufacturing semiconductor device,KR,104604
+10459125,20191029,20170215,"Optical member, method for manufacturing optical member, and optical film of optical member",JP,2721
+10061857,20180828,20180226,Detecting and grouping users in electronic communications,US,6066
+10136110,20181120,20161013,Low-light image quality enhancement method for image processing device and method of operating image processing system performing the method,KR,104604
+8838927,20140916,20110527,"Systems, methods, and physical computer storage media to optimize data placement in multi-tiered storage systems",US,6066
+9058890,20150616,20130625,Over-sampling read operation for a flash memory device,KR,104604
+9917818,20180313,20140930,Multi-tenant secure separation of data in a cloud-based application,US,6066
+9273906,20160301,20120614,Modular pumping unit(s) facilitating cooling of electronic system(s),US,6066
+10355743,20190716,20180117,Frequency hopping design for large bandwidth allocations in eMTC,US,24800
+10128917,20181113,20150914,Systems and methods for tone plans for wireless communication networks,US,24800
+9794956,20171017,20140113,Mobile communication terminal device and method for selecting a virtual carrier for machine-type communications based on measurements of channel conditions,JP,9818
+9324180,20160426,20131209,Culling using masked depths,US,6008
+9274580,20160301,20120629,Voltage regulator supplying power exclusively to a non-core region of a processor having a supply capability threshold,US,6008
+8588002,20131119,20100706,Nonvolatile memory devices and programming methods thereof in which a program inhibit voltage is changed during programming,KR,104604
+8630403,20140114,20120309,Controlling hold queue position adjustment,US,6066
+9183931,20151110,20140722,Resistive memory device capable of increasing sensing margin by controlling interface states of cell transistors,KR,104604
+9953033,20180424,20140912,Wireless content synchronization,US,1690
+10216107,20190226,20171228,Toner and method of producing toner,JP,2721
+8419433,20130416,20080415,Monitoring recipe preparation using interactive cooking device,US,6066
+9544897,20170110,20130415,Peak-to-average power ratio management for multi-carrier modulation in wireless communication systems,US,24800
+8940449,20150127,20070201,Fuel cell,JP,2721
+9442829,20160913,20160304,Detecting error states when interacting with web applications,US,6066
+8702001,20140422,20121017,Apparatus and method for acquiring code image in a portable terminal,KR,104604
+8441555,20130514,20120329,"Image capturing apparatus with electronic zoom and recording size setting, and control method and program therefor",JP,2721
+9535564,20170103,20140325,Visualization of runtime resource policy attachments and applied policy details,US,6066
+10049120,20180814,20150708,Consistency based access of data in a dispersed storage network,US,6066
+8912013,20141216,20121219,Magnetic tunnel junction device and fabrication,US,24800
+10169260,20190101,20171215,Multiprocessor cache buffer management,US,6066
+9495389,20161115,20130315,Client-server based dynamic search,US,24800
+8868627,20141021,20100125,"Information processing apparatus, information processing method, and program",JP,9818
+8752022,20140610,20110224,Thread-specific event management in a non-stop debugging environment,US,6066
+8384076,20130226,20090514,"Transistors, semiconductor devices and methods of manufacturing the same",KR,104604
+10345678,20190709,20180730,Sum frequency generator in the microwave domain for quantum communication and computation applications,US,6066
+10419538,20190917,20160426,Selecting memory for data access in a dispersed storage network,US,6066
+8428167,20130423,20120813,Method of estimating the symbols of a digital signal and receiver for implementing said method,US,1690
+9202287,20151201,20130923,Apparatus and method for processing color image using depth image,KR,104604
+10425666,20190924,20101112,Method and apparatus for adaptive streaming using segmentation,KR,104604
+9268108,20160223,20131223,Lens barrel capable of suppressing variation of attitude of optical element and image pickup apparatus using the same,JP,2721
+8426319,20130423,20080528,Composition for etching a metal hard mask material in semiconductor processing,US,6008
+9203147,20151201,20121220,Inverse beamformer for inverting the action of existing beamformer in communication system,US,1690
+8520119,20130827,20120607,"Imaging apparatus and video camera, and method of reproducing recorded information performed by the imaging apparatus or the video camera",JP,2721
+9778660,20171003,20150916,Unmanned aerial vehicle low-power operation,US,24800
+8406803,20130326,20100727,Multi-cell communication apparatus and method using rate-splitting scheme and transmission frame,KR,104604
+9251794,20160202,20130207,"Signal processing apparatus, signal processing method, program, electronic device, signal processing system and signal processing method thereof",JP,9818
+10304802,20190528,20160502,Integrated wafer-level processing system,US,6066
+9342415,20160517,20140714,Run-to-completion thread model for software bypass fail open for an inline intrusion protection system,US,6066
+10018662,20180710,20160323,Networked electrostatic discharge measurement,US,6066
+10219256,20190226,20151230,Control information feedback for eCC on PCell,US,24800
+10146680,20181204,20140312,Data processing system and method of operating the same,KR,104604
+9548466,20170117,20130620,Method of forming a thin film and an electronic device,KR,104604
+9042098,20150526,20121112,Air-cooling and vapor-condensing door assembly,US,6066
+9972711,20180515,20150603,Reduced resistance short-channel InGaAs planar MOSFET,US,6066
+9473149,20161018,20160108,Temperature-compensated signal generator for supply voltage monitoring,US,24800
+10169029,20190101,20170110,Pattern based migration of integration applications,US,6066
+9900171,20180220,20140221,"Methods to discover, configure, and leverage relationships in internet of things (IoT) networks",US,24800
+9507326,20161129,20150827,System and method for using biometrics to predict and select music preferences,US,6066
+8483290,20130709,20100114,Method and system for data management in a video decoder,US,6008
+9311388,20160412,20120814,Semantic and contextual searching of knowledge repositories,US,6066
+8913600,20141216,20040107,"Wireless communication apparatus, system, and device communicating with another wireless communication apparatus, system, and device in an autonomous distributed network without a designated control station and method thereof",JP,9818
+8992031,20150331,20110818,Imaging apparatus,JP,2721
+8856453,20141007,20120301,Persistent prefetch data stream settings,US,6066
+10003679,20180619,20170630,"Housing, manufacturing method thereof, and electronic device including the housing",KR,104604
+9762929,20170912,20131113,"Content adaptive, characteristics compensated prediction for next generation video",US,6008
+10229088,20190312,20160421,Application processor and system on chip,KR,104604
+8867581,20141021,20130108,Semiconductor laser and method of manufacturing the same,JP,9818
+8492274,20130723,20121017,Metal alloy cap integration,US,6066
+9851582,20171226,20150817,Zoom lens and image pickup apparatus including the same,JP,2721
+9513947,20161206,20141024,Adaptive virtual machine request approver,US,6066
+9733548,20170815,20160407,Focal-plane shutter and image capturing apparatus,JP,2721
+9256152,20160209,20131010,Image processing apparatus and method having viewing-density priority and color material saving modes,JP,2721
+10332212,20190625,20161026,Automation and validation of insurance claims for infrastructure risks and failures in multi-processor computing environments,US,6066
+10165163,20181225,20150720,"Image pickup apparatus including mechanism for attaching and detaching transparent cover, image processing method thereof, and storage medium",JP,2721
+8626881,20140107,20111216,Distributed mesh network,US,6008
+10163192,20181225,20161021,Image encoding apparatus and method of controlling the same,JP,2721
+10224419,20190305,20171127,Threshold voltage modulation through channel length adjustment,US,6066
+9946771,20180417,20140930,User interface for searching,US,1690
+10268366,20190423,20160603,Touch-based interactive learning environment,US,1690
+9967649,20180508,20160922,Wireless pairing of earbuds and case,US,1690
+8835257,20140916,20111206,Method of fabricating semiconductor device including a recessed channel,KR,104604
+10257023,20190409,20160415,Dual server based storage controllers with distributed storage of each server data in different clouds,US,6066
+9552187,20170124,20151202,System and method for display mirroring,US,1690
+9250888,20160202,20121127,Migration package for updating multiple software products,US,6066
+10025020,20180717,20160421,Backlight apparatus and 3D image display apparatus including the same,KR,104604
+10440262,20191008,20150113,Electronic device and method for processing image,KR,104604
+9794445,20171017,20160714,Image forming apparatus,JP,2721
+10380187,20190813,20151030,"System, method, and recording medium for knowledge graph augmentation through schema extension",US,6066
+8767079,20140701,20101213,Image capture apparatus and control method thereof,JP,2721
+8909877,20141209,20120202,Dynamic real storage usage control,US,6066
+9861253,20180109,20140804,"Water softening apparatus, dishwasher having the same and control method thereof",KR,104604
+8625300,20140107,20120905,Circuit manufacturing and design techniques for reference plane voids with strip segment,US,6066
+9622246,20170411,20140929,Scrambling sequence generation in a communication system,US,24800
+9709706,20170718,20140221,"Optical unit, imaging device, electronic apparatus, and master",JP,9818
+10114444,20181030,20160815,Electronic device having an active edge,US,6008
+9692997,20170627,20160328,Pixel readout architecture for full well capacity extension,US,24800
+9767194,20170919,20111107,Media file abbreviation retrieval,US,6066
+8949342,20150203,20080314,Messaging system,US,1690
+8703592,20140422,20110321,Methods of forming semiconductor devices having faceted semiconductor patterns,KR,104604
+8644736,20140204,20100405,Developing apparatus,JP,2721
+10341601,20190702,20170919,"Image processing apparatus, imaging apparatus, and image processing method",JP,2721
+9374830,20160621,20130129,"Communication control device, communication control method, and base station",JP,9818
+9337029,20160510,20150409,Structure including gallium nitride substrate and method of manufacturing the gallium nitride substrate,KR,104604
+9572187,20170214,20150122,"Information processing apparatus, information processing method, and program",JP,9818
+9041448,20150526,20130305,Flip-flops in a monolithic three-dimensional (3D) integrated circuit (IC) (3DIC) and related methods,US,24800
+8488709,20130716,20100830,Providing CQI feedback with common code rate to a transmitter station,US,6008
+9546872,20170117,20160229,Hybrid road network and grid based spatial-temporal indexing under missing road links,US,6066
+8644155,20140204,20090123,Multi-hop wireless terminal and traffic control method thereof,JP,9818
+9929517,20180327,20170526,Connectors with switchable terminal loads,US,6008
+9280448,20160308,20130311,Controlling operation of a run-time instrumentation facility from a lesser-privileged state,US,6066
+9502504,20161122,20131219,SOI lateral bipolar transistors having surrounding extrinsic base portions,US,6066
+9647323,20170509,20150612,Electronic device with antenna having ring-type structure,KR,104604
+10338970,20190702,20160920,Multi-platform scheduler for permanent and transient applications,US,6066
+8423652,20130416,20120627,Service templates for an IP multimedia subsystem,US,1690
+9858099,20180102,20140428,Administering virtual machines in a distributed computing environment,US,6066
+10043125,20180807,20150406,Smart ring,US,24800
+9519397,20161213,20130830,Data display method and apparatus,KR,104604
+10199524,20190205,20120113,Field-effect photovoltaic elements,US,6066
+10228630,20190312,20170907,Toner and method of producing toner,JP,2721
+9421543,20160823,20120329,"Hydrodynamic filter unit, hydrodynamic filter including the hydrodynamic filter unit, and method of filtering target material by using the hydrodynamic filter unit and the hydrodynamic filter",KR,104604
+9575556,20170221,20121025,"Information processing apparatus and method, information processing system, and providing medium",JP,9818
+8874856,20141028,20110617,Apparatus and method for detecting false sharing,KR,104604
+8949746,20150203,20091112,Providing access for blind users on kiosks,US,6066
+9344710,20160517,20140930,"Image signal processing device, transmitting device, image signal processing method, program and image signal processing system",JP,9818
+9513836,20161206,20160303,Migration of data to sequential access medium,US,6066
+9088458,20150721,20130715,Method and apparatus for notifying remote user interface client about event of remote user interface server in home network,KR,104604
+9348423,20160524,20140825,Integrated processor for 3D mapping,US,1690
+10282207,20190507,20160218,Multi-slice processor issue of a dependent instruction in an issue queue based on issue of a producer instruction,US,6066
+8810676,20140819,20111011,"Analog to digital converters, image sensor systems, and methods of operating the same",KR,104604
+8930954,20150106,20100810,Scheduling parallel data tasks,US,6066
+9037802,20150519,20120530,Methods for managing a cache in a multi-node virtual tape controller,US,6066
+8930541,20150106,20111125,"System, method and program product for cost-aware selection of templates for provisioning shared resources",US,6066
+8639108,20140128,20130107,Imaging apparatus and method for controlling same,JP,2721
+8514703,20130820,20101111,Scheduling of logical channels in a wireless communication system,US,24800
+10175522,20190108,20151209,"Optical deflection diffusion sheet, laminated optical deflection diffusion sheet, laminated optical sheet, and liquid crystal display device using same",KR,104604
+10224368,20190305,20170630,Voltage-switched magneto-resistive random access memory (MRAM) employing separate read operation circuit paths from a shared spin torque write operation circuit path,US,24800
+9391233,20160712,20140124,Method for manufacturing light emitting device package,KR,104604
+9712305,20170718,20101012,Method and apparatus for transmitting and receiving multi-user control channels in a wireless communication system with multiple antennas,KR,104604
+9819364,20171114,20150921,Apparatus and method for transmitting/receiving signal in communication system supporting bit-interleaved coded modulation with iterative decoding scheme,KR,104604
+8595044,20131126,20080529,Determining competence levels of teams working within a software,US,6066
+10223278,20190305,20160922,Selective bypassing of allocation in a cache,US,24800
+8787172,20140722,20100621,Method and apparatus for QoS context transfer during inter radio access technology handover in a wireless communication system,US,24800
+8868871,20141021,20131001,Synchronous extent migration protocol for paired storage,US,6066
+10396033,20190827,20180723,First power buses and second power buses extending in a first direction,US,24800
+8969984,20150303,20131008,Magnetic tunnel junction device,US,24800
+10346642,20190709,20180307,Keyboard entry as an abbreviation to a contemporaneous gesture authentication,US,6066
+9585287,20170228,20141021,"Electronic component, electronic apparatus, and method for manufacturing the electronic component",JP,2721
+9943046,20180417,20140929,Targeted irrigation using a central pivot irrigation system with a sensor network,US,6066
+10235327,20190319,20170526,Digital interconnects with protocol-agnostic repeaters,US,6008
+9578299,20170221,20120113,Stereoscopic conversion for shader based graphics content,US,24800
+10142218,20181127,20110114,Hypervisor routing between networks in a virtual networking environment,US,6066
+10462363,20191029,20180222,Optical apparatus,JP,2721
+8871624,20141028,20130116,Sealed air gap for semiconductor chip,US,6066
+8751519,20140610,20120619,Image processing apparatus and method for controlling image processing apparatus,JP,2721
+8679650,20140325,20091001,Substrate for growing wurtzite type crystal and method for manufacturing the same and semiconductor device,JP,2721
+8854448,20141007,20130604,"Image processing apparatus, image display system, and image processing method and program",JP,2721
+9391779,20160712,20080728,Reactive biometric single sign-on utility,US,6066
+8933890,20150113,20070801,Techniques for interactive input to portable electronic devices,US,1690
+8891953,20141118,20101229,"Apparatus, medium, and method for photographing based on face detection",KR,104604
+10078629,20180918,20151022,Tabular data compilation,US,6066
+10073201,20180911,20121026,See through near-eye display,US,24800
+8891725,20141118,20130429,Frequency divider with improved linearity for a fractional-N synthesizer using a multi-modulus prescaler,US,24800
+8548354,20131001,20120824,Process cartridge including developing roller and electrophotographic photosensitive member that can be contacted to and spaced from each other,JP,2721
+10040794,20180807,20150318,Condensed cyclic compound and organic light-emitting device including the same,KR,104604
+10313482,20190604,20141016,"Method, device and system for providing services based on location information and terminal device thereon",KR,104604
+10468134,20191105,20141003,Medical imaging apparatus for displaying portions of x-ray images and method for displaying medical image,KR,104604
+10310813,20190604,20141229,Hardware implementation of a tournament tree sort algorithm using an external memory,US,6066
+9721946,20170801,20161019,Backside coupled symmetric varactor structure,US,24800
+10448346,20191015,20170922,Synchronization signal design,US,24800
+9335847,20160510,20140321,Object display method and apparatus of portable electronic device,KR,104604
+9354385,20160531,20131023,Curved display apparatus,KR,104604
+9559107,20170131,20150520,Structure and method for BEOL nanoscale damascene sidewall-defined non-volatile memory element,US,6066
+9183913,20151110,20140604,Methods of operating a magnetic memory device,KR,104604
+9985477,20180529,20140910,"Power transmitting apparatus, power receiving apparatus, control methods therefor, program, and computer-readable storage medium",JP,2721
+8383468,20130226,20120405,"Display device and manufacturing method thereof, and semiconductor device and manufacturing method thereof",JP,9818
+10484070,20191119,20190517,Method and apparatus for channel state information reference signal (CSI-RS),KR,104604
+9558807,20170131,20150623,Apparatuses and systems for increasing a speed of removal of data stored in a memory cell,US,6008
+10021701,20180710,20131226,Wireless communication method and wireless communication device,JP,9818
+9001216,20150407,20121012,Method and apparatus for video streaming,JP,9818
+8750209,20140610,20110624,System and method for switching mobile station identification in wireless communication system,KR,104604
+9171608,20151027,20130711,"Three-dimensional (3D) memory cell separation among 3D integrated circuit (IC) tiers, and related 3D integrated circuits (3DICS), 3DIC processor cores, and methods",US,24800
+8894800,20141125,20130226,Polymeric edge seal for bonded substrates,US,6066
+8791562,20140729,20110715,Stack package and semiconductor package including the same,KR,104604
+9490130,20161108,20150601,Method of manufacturing three-dimensional semiconductor memory device in which an oxide layer is formed at bottom of vertical structure of the device,KR,104604
+8809993,20140819,20130221,Semiconductor device having isolation region,KR,104604
+9438842,20160906,20131205,"Reproduction control apparatus, reproduction control method, and storage medium",JP,2721
+10014931,20180703,20080111,Method and system for transmitting and receiving signal using multiple frequency bands in a wireless communication system,KR,104604
+9258836,20160209,20131226,"Information processing apparatus, control method therefor, and recording medium",JP,2721
+9649853,20170516,20160708,Image processing apparatus and method for processing image,JP,2721
+9565123,20170207,20151005,Methods and systems for scheduling OFDM frames,US,1690
+10373905,20190806,20180412,Integrating metal-insulator-metal capacitors with air gap process flow,US,6066
+8502085,20130806,20070914,Multi-layer substrate with a via hole and electronic device having the same,KR,104604
+9449173,20160920,20140923,Techniques for enabling co-existence of multiple security measures,US,6008
+9800561,20171024,20141106,Secure sharing of user annotated subscription media with trusted devices,US,6008
+9315026,20160419,20150812,Method for manufacturing liquid discharge head,JP,2721
+8683158,20140325,20051230,Steering system management code region accesses,US,6008
+9485068,20161101,20141105,Method and apparatus for mitigating pilot pollution in a wireless network,US,24800
+10521359,20191231,20170508,Secure distance computations,US,6066
+10321333,20190611,20170914,Beam switching with reset states,US,24800
+8447807,20130521,20120307,Method and apparatus for updating and synchronizing information between a client and a server,US,1690
+10129756,20181113,20160113,Proactive security for mobile devices,US,1690
+10291976,20190514,20171109,Electronic devices with configurable capacitive proximity sensors,US,1690
+9490881,20161108,20150616,Envelope tracking system for MIMO,US,24800
+10339722,20190702,20151204,Display device and control method therefor,KR,104604
+10026050,20180717,20150623,Association-based product design,US,6066
+8988166,20150324,20111002,Structure and compact modeling of variable transmission lines,US,6066
+9977075,20180522,20161123,Integrated circuit reliability assessment apparatus and method,US,6008
+9338311,20160510,20120611,"Image-related handling support system, information processing apparatus, and image-related handling support method",JP,2721
+10064030,20180828,20150223,Method of operating function and resource of electronic device,KR,104604
+9118823,20150825,20111107,"Image generation apparatus, image generation method and storage medium for generating a target image based on a difference between a grip-state image and a non-grip-state image",JP,2721
+8582834,20131112,20110830,Multi-image face-based image processing,US,1690
+9469748,20161018,20150401,Smart composites containing modified cellulosic nanomaterials,US,6066
+9207718,20151208,20140124,Portable electronic device,JP,9818
+9426821,20160823,20060414,Method and apparatus for high rate packet data and low delay data transmissions,US,24800
+10304896,20190528,20180112,Infrared detector and infrared sensor including the same,KR,104604
+8994846,20150331,20130206,Image processing apparatus and image processing method for detecting displacement between images having different in-focus positions,JP,2721
+9698666,20170704,20141209,Power supply and gate driver therein,KR,104604
+9563481,20170207,20130806,Performing a logical partition migration utilizing plural mover service partition pairs,US,6066
+9189887,20151117,20110413,Information processing apparatus and information processing method,JP,9818
+10103147,20181016,20170501,Vertical transport transistors with equal gate stack thicknesses,US,6066
+10257458,20190409,20180111,"Ramp signal generator of image sensor, and image sensor including same",KR,104604
+9785853,20171010,20141119,Dynamically enabling an interactive element within a non-interactive view of a screen sharing session,US,6066
+10237433,20190319,20160923,"Information processing apparatus, method of controlling the same, and storage medium for specifying a setting value to be rest and resetting the setting value after initialization",JP,2721
+9129398,20150908,20130315,Edgel sampling for edge-based tracking,US,24800
+9563454,20170207,20150203,Using a mobile device to transfer virtual machine between computers while preserving session,US,6066
+10199473,20190205,20150325,"Semiconductor device, antenna switch circuit, and wireless communication apparatus",JP,9818
+9922642,20180320,20140314,Training an at least partial voice command system,US,1690
+9320010,20160419,20131224,"Apparatus, system and method of estimating a location of a mobile device",US,6008
+9425584,20160823,20140422,"Laser drive device that drives laser diode, method of controlling the same, and storage medium",JP,2721
+9667708,20170530,20151230,Boost orchestrator for client-server architectures,US,6066
+10394588,20190827,20160210,Self-terminating or self-shelving virtual machines and workloads,US,6066
+10304161,20190528,20170426,"Image processing apparatus, control method, and recording medium",JP,2721
+9701532,20170711,20160629,Multi-faced component-based electromechanical device,US,6066
+10248784,20190402,20161201,Sequential object set passwords,US,6066
+9596337,20170314,20140515,Directing audio output based on device sensor input,JP,9818
+10204962,20190212,20160725,Light source module and display apparatus having the same,KR,104604
+8940580,20150127,20120709,Textured multi-junction solar cell and fabrication method,US,6066
+9983892,20180529,20160812,Deep linking to mobile application states through programmatic replay of user interface events,KR,104604
+9477620,20161025,20140708,Storage system for changing a data transfer speed and a method of changing the data transfer speed thereof,KR,104604
+10193933,20190129,20130911,System and method for post-discovery communication within a neighborhood-aware network,US,24800
+8379137,20130219,20070116,Imaging apparatus,JP,2721
+10223186,20190305,20170201,Coherency error detection and reporting in a processor,US,6066
+8576414,20131105,20081111,Bookbinding processing apparatus and control method thereof and program for setting recommended setting values as the setting values,JP,2721
+10441163,20191015,20171127,Ophthalmic diagnosis support apparatus and ophthalmic diagnosis support method,JP,2721
+10043110,20180807,20161019,Scene understanding using a neurosynaptic system,US,6066
+8484760,20130709,20101123,Device comprising a cantilever and scanning system,US,6066
+9472483,20161018,20150717,Integrated circuit cooling apparatus,US,6066
+8660812,20140225,20110225,Methods for calibrating over-the-air path loss in over-the-air radio-frequency test systems,US,1690
+10235303,20190319,20160809,Secure entry and exit for software modules protected by controlled encryption key management,US,24800
+9426354,20160823,20150409,"Image processing apparatus, image sensing apparatus, control method, and recording medium",JP,2721
+8756643,20140617,20120430,Wireless information transfer and interactive television system,US,6066
+10205292,20190212,20170926,Socket contact techniques and configurations,US,6008
+8482646,20130709,20100120,Image sensing device and camera,JP,2721
+10235699,20190319,20151123,Automated updating of on-line product and service reviews,US,6066
+9952328,20180424,20150819,Antenna pattern data mining for automotive GNSS receivers,US,24800
+10490187,20191126,20160915,Digital assistant providing automated status report,US,1690
+9516146,20161206,20141022,Skipping and parsing internet protocol version 6 extension headers to reach upper layer headers,US,6066
+9723651,20170801,20151106,Enhanced connection management for multiple access networks,US,24800
+9949032,20180417,20160923,Directivity speaker array,US,1690
+10461975,20191029,20161007,Dynamic cyclic prefix (CP) length in wireless communication,US,24800
+9972540,20180515,20160807,Semiconductor device having multiple thickness oxides,US,6066
+10171104,20190101,20171108,Encoding variable length integers for graph compression,US,6066
+8452105,20130528,20080528,Selecting a section of interest within an image,US,1690
+9116936,20150825,20130606,Inline learning-based selective deduplication for primary storage systems,US,6066
+8375220,20130212,20100402,"Methods and systems for secure remote wake, boot, and login to a computer from a mobile device",US,6008
+9595053,20170314,20160615,Product recommendation using sentiment and semantic analysis,US,6066
+10199551,20190205,20170628,Semiconductor light-emitting device,KR,104604
+9395430,20160719,20140916,"Method of generating magnetic resonance image, method of acquiring phase information of phase contrast image, method of acquiring phase information of susceptibility weighted image, and apparatus for generating magnetic resonance image",KR,104604
+8675265,20140318,20111101,Image reading apparatus,JP,2721
+8917947,20141223,20120620,Selective predictor and selective predictive encoding for two-dimensional geometry compression,US,6066
+9601494,20170321,20150303,Semiconductor devices having a supporter and methods of fabricating the same,KR,104604
+8873839,20141028,20101007,"Apparatus of learning recognition dictionary, and method of learning recognition dictionary",JP,2721
+9132980,20150915,20130823,"Printing apparatus, method for controlling the same, and storage medium",JP,2721
+8416784,20130409,20090903,Apparatus and method for receiving packet data in wireless communication system,KR,104604
+9923715,20180320,20150923,"System, apparatus and method for group key distribution for a network",US,6008
+9775107,20170926,20141202,"Information processing device, information processing system, and information processing method",JP,9818
+8476168,20130702,20110126,Non-conformal hardmask deposition for through silicon etch,US,6066
+10299291,20190521,20170421,Identification and use of resource sets associated with different restriction levels for resource usage in a radio frequency spectrum band,US,24800
+10218799,20190226,20160712,Optimizing client distance to network nodes,US,6066
+9103681,20150811,20131016,Navigation application with several navigation modes,US,1690
+9071712,20150630,20140415,Image forming apparatus,JP,2721
+8674957,20140318,20120202,User input device for wireless back channel,US,24800
+8990046,20150324,20110711,Method and portable terminal for estimating step length of pedestrian,KR,104604
+9824936,20171121,20161013,Adjacent device isolation,US,24800
+9361106,20160607,20131227,"SMS4 acceleration processors, methods, systems, and instructions",US,6008
+10291450,20190514,20160331,Method and apparatus for transmitting and receiving data between terminal and base station in mobile communication system,KR,104604
+9575661,20170221,20140819,Nonvolatile memory systems configured to use deduplication and methods of controlling the same,KR,104604
+9565672,20170207,20150126,Techniques for improved multicast content delivery,US,6008
+9819458,20171114,20110808,Feedback bundling for power-limited devices in wireless communications,US,24800
+9325331,20160426,20151103,Prediction based digital control for fractional-N PLLs,US,6066
+9040383,20150526,20130221,Devices with gate-to-gate isolation structures and methods of manufacture,US,6066
+9544580,20170110,20131031,Image processing method and image processing apparatus,KR,104604
+9099966,20150804,20110421,Dual time alignment architecture for transmitters using EER/ET amplifiers and others,KR,104604
+8661313,20140225,20121228,Device communication techniques,US,6008
+10373405,20190806,20160923,Vehicle generated data,US,6066
+8419155,20130416,20091116,Printing apparatus,JP,2721
+8659906,20140225,20120409,Printed circuit board,US,1690
+8775318,20140708,20090330,Method and system for updating firmware of terminals in a broadcast system,KR,104604
+8830739,20140909,20130309,Non-volatile memory device having multi-level cells and method of forming the same,KR,104604
+9626432,20170418,20130909,Defect record classification,US,6066
+10205941,20190212,20170614,Mode-dependent coefficient scanning and directional transforms for different colour sampling formats,JP,9818
+8587530,20131119,20090512,"Information processing apparatus, information processing method, information processing program, and mobile terminal",JP,9818
+10057332,20180821,20141211,Preemptive extraction of data from long latency storage in a cloud computing environment,US,6066
+8773916,20140708,20130617,"Nonvolatile memory device, system and programming method with dynamic verification mode selection",KR,104604
+9712881,20170718,20160204,Method and system for electronic communication to television,JP,9818
+8926390,20150106,20080617,Method for manufacturing organic EL display and organic EL display,JP,9818
+9189956,20151117,20120127,Remote controller and method of controlling light emission from light-emitting unit thereof,JP,9818
+9420178,20160816,20140702,Thermal and power management,US,24800
+8785281,20140722,20120209,CMOS structure and method for fabrication thereof using multiple crystallographic orientations and gate materials,US,6066
+9934790,20180403,20160303,Encoded audio metadata-based equalization,US,1690
+8665365,20140304,20120716,Image-pickup apparatus,JP,2721
+9984331,20180529,20150608,Automated vehicular accident detection,US,6066
+8937583,20150120,20081113,"Display apparatus, driving method for display apparatus and electronic apparatus",JP,9818
+9136509,20150915,20110527,Battery cell with an integrated pouch metal foil terminal,US,1690
+9681269,20170613,20160713,Positioning accuracy using 3D building models,US,1690
+8508804,20130813,20101025,Movement detection apparatus and recording apparatus,JP,2721
+8670569,20140311,20120503,Method for checking audio interface in AV system and apparatus using the same,KR,104604
+8572069,20131029,20060403,Semi-automatic index term augmentation in document retrieval,US,1690
+8574982,20131105,20100225,Implementing eDRAM stacked FET structure,US,6066
+8699967,20140415,20100827,Uplink transmit diversity enhancement,US,24800
+10002219,20180619,20160314,Method for placing parallel multiplier,KR,104604
+10165423,20181225,20160606,Common search space for machine type communications,US,24800
+8835922,20140916,20120803,Monitoring pad and semiconductor device including the same,KR,104604
+8767601,20140701,20110329,Method of enhancing U-APSD for low power Wi-Fi,US,6008
+10251224,20190402,20170403,Display module and method for coating the same,KR,104604
+8399264,20130319,20101130,Alignment inspection,US,6008
+9794467,20171017,20141029,"Focus adjustment apparatus, method for controlling focus adjustment apparatus, and storage medium",JP,2721
+9720628,20170801,20150415,"Information processing system, information processing apparatus, information processing method, and storage medium",JP,2721
+9464800,20161011,20140808,Light emitting module,KR,104604
+9883525,20180130,20140730,Method and apparatus of configuring timing of uplink transmission,KR,104604
+9529928,20161227,20130305,Intelligent categorization of bookmarks,US,6066
+9424262,20160823,20130923,Computing system and data management method thereof,KR,104604
+10075579,20180911,20150123,"Mobile terminal, user interface method in the mobile terminal, and cover of the mobile terminal",KR,104604
+9277540,20160301,20110511,"System, apparatus and method for control channel configuration in wireless communication systems",US,24800
+8737233,20140527,20110919,Increasing throughput of multiplexed electrical bus in pipe-lined architecture,US,6066
+9794190,20171017,20150216,Managing asset deployment for a shared pool of configurable computing resources,US,6066
+8669027,20140311,20111005,"Electrophotographic photosensitive member, process cartridge, electrophotographic apparatus, and method of manufacturing electrophotographic photosensitive member",JP,2721
+9151610,20151006,20130608,Validating calibrated magnetometer data,US,1690
+9867158,20180109,20140321,"Mobile information terminal, control method thereof, and storage medium",JP,2721
+10459683,20191029,20150414,Player and playing method and program,JP,9818
+8749903,20140610,20111206,Optical filter,JP,2721
+9671968,20170606,20160516,Programmable peak-current control in non-volatile memory devices,US,1690
+10140668,20181127,20130313,Gifting enabled by integration of commerce and social networks,US,6066
+9732069,20170815,20150116,Carbazole compound and organic light emitting device including the same,KR,104604
+9614987,20170404,20140319,"Mobile device and image forming apparatus for providing user interface screen, and method of providing user interface screen in the mobile device and image forming apparatus",KR,104604
+8957985,20150217,20120629,Imaging apparatus and control method for imaging apparatus including image processing using either a reduced image or a divided image,JP,2721
+9405251,20160802,20150520,"Image forming apparatus with moving mechanism configured to move at least one of heating member and pressing member between first, second, and third relative positions therebetween",JP,2721
+9250982,20160202,20140916,Automatically deriving a command for starting a program in an operating system of a computer,US,6066
+10409974,20190910,20161001,Technologies for authorizing a user to a protected system,US,6008
+10013309,20180703,20160817,Missing slice reconstruction in a dispersed storage network,US,6066
+9271376,20160223,20141001,Image display apparatus and control method,JP,9818
+8908313,20141209,20130702,Transport system for transporting magnetic tape,US,6066
+9128363,20150908,20100428,Micro-projection device with antispeckle vibration mode,US,6008
+9991117,20180605,20170620,Fin patterns with varying spacing without fin cut,US,6066
+9294356,20160322,20130618,"Optimizing resource usage in systems which include heterogeneous devices, including sensors and smartphones",US,6066
+9727382,20170808,20150701,Parallelization method and electronic device based on profiling information,KR,104604
+9627327,20170418,20150731,Semiconductor package and method of manufacturing the same,KR,104604
+9590099,20170307,20150921,Semiconductor devices having gate structures and methods of manufacturing the same,KR,104604
+9531975,20161227,20150629,Solid-state imaging device and camera,JP,9818
+9612281,20170404,20141120,High-speed flip-flop with robust scan-in path hold time,US,24800
+9882748,20180130,20141223,Technologies for configuring transmitter equalization in a communication system,US,6008
+8615181,20131224,20120827,Image forming apparatus,JP,2721
+10381323,20190813,20180517,Metal bonding pads for packaging applications,US,6066
+8863136,20141014,20120514,Lock control in multiple processor systems,US,6066
+10347717,20190709,20180628,Fabrication of nanowire vertical gate devices,US,6066
+8717345,20140506,20110524,Pre-charging of sub-pixels,US,1690
+8935519,20150113,20110112,Apparatus and method for booting in computer device with built-in communication module,KR,104604
+9703186,20170711,20150630,"Mask including pellicle, pellicle repairing apparatus, and substrate manufacturing equipment",KR,104604
+8824163,20140902,20110825,RF layered module using three dimensional vertical wiring and disposing method thereof,KR,104604
+8495361,20130723,20070921,Securely creating an endorsement certificate in an insecure environment,US,6066
+9432155,20160830,20150120,"Parallel wireless communication apparatus, method, and system",US,6008
+10282019,20190507,20170420,Electronic device and method for processing gesture input,KR,104604
+9685557,20170620,20130313,Different lightly doped drain length control for self-align light drain doping process,US,1690
+10496703,20191203,20170627,Techniques for random operations on compressed data,US,6008
+9820355,20171114,20160226,Electronic device with directional ambient light sensor,US,1690
+8619654,20131231,20101223,Base station selection method for heterogeneous overlay networks,US,6008
+9984064,20180529,20151111,Reduction of memory usage in feature generation,US,6066
+8446437,20130521,20091202,"Display device, method of driving display device, and program",JP,9818
+8635175,20140121,20110715,Managing capacities and structures in stochastic networks,US,6066
+9782081,20171010,20150512,Photoacoustic apparatus,JP,2721
+10372925,20190806,20141211,Data protected process cores,US,6066
+9836652,20171205,20160202,Showing danger areas associated with objects using augmented-reality display techniques,US,6066
+10229024,20190312,20160608,Assisted coherent shared memory,US,6008
+8954869,20150210,20081216,Generating a front end graphical user interface for a plurality of text based commands,US,6066
+8995462,20150331,20101210,Apparatus and method for performing contention based access in mobile communication system,KR,104604
+8457768,20130604,20070604,Crowd noise analysis,US,6066
+9953431,20180424,20160816,Image processing system and method for detection of objects in motion,JP,9818
+10163454,20181225,20171026,Training deep neural network for acoustic modeling in speech recognition,US,6066
+9497645,20161115,20130515,Method and apparatus for selecting reference signal tones for decoding a channel,US,24800
+9800218,20171024,20160627,Apparatus and method for correcting baseline wander and offset insertion in AC coupling circuits,US,24800
+9252229,20160202,20120906,Inversion thickness reduction in high-k gate stacks formed by replacement gate processes,US,6066
+9589312,20170307,20141219,Exploiting frame-to-frame coherence for optimizing color buffer clear performance in graphics processing units,US,6008
+9590318,20170307,20140724,"Modular design of a high power, low passive intermodulation, active universal distributed antenna system interface tray",US,6008
+8385826,20130226,20090514,Methods and apparatus for supporting communication over different ranges in a wireless network,US,24800
+9906481,20180227,20140411,Notification of electronic conversation,US,6066
+9894807,20180213,20150127,"Changeable, airflow venting cover assembly for an electronics rack",US,6066
+10223241,20190305,20170302,Resuming a remote debugging session using a backup node,US,6066
+9450661,20160920,20120808,Method and apparatus for beam tracking in wireless communication system,KR,104604
+10390283,20190820,20171128,Improving data throughput for cell-edge users in an LTE network#,US,6008
+8655646,20140218,20060803,Apparatus and method for detecting named entity,KR,104604
