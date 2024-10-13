@@ -1,0 +1,25 @@
+patentID,appldate,patent_title,firmID,result
+10103152,20170627,Semiconductor device and method for fabricating the same,104604,n
+9001344,20140114,"Image forming apparatus, method of control thereof and computer readable medium",104604,n
+9344752,20110119,Content reproduction system and content reproduction method,9818,y
+9317022,20120719,Controlling power generators and chillers,6066,n
+9690680,20160923,Testing hybrid instruction architecture,6066,y
+8832383,20130520,Delayed replacement of TLB entries,6066,n
+10012782,20150807,Backlight apparatus and display apparatus having the same,104604,y
+9820090,20160915,Enhanced fallback mechanism for SLP connection during emergency SUPL sessions,24800,y
+9015522,20121204,Implementing DRAM failure scenarios mitigation by using buffer techniques delaying usage of RAS features in computer systems,6066,n
+9707146,20141202,Wearable robot and method for controlling the same,104604,y
+9706455,20150806,Method and apparatus for adjusting mobility parameter,104604,y
+10074712,20171026,Display device,9818,n
+9665586,20160714,Preserving high value entries in an event log,6066,n
+8508528,20100909,"Image signal processing apparatus, image signal processing method, program, and image signal processing system",9818,n
+9015462,20120824,Display device and booting method thereof,104604,y
+9880833,20180130,Initialization status of a register employed as a pointer,6066,n
+9607900,20170328,Method and structure to fabricate closely packed hybrid nanowires at scaled pitch,6066,n
+9165941,20151020,Semiconductor memory devices and methods for fabricating the same,104604,n
+9939285,20180410,Navigation apparatus,9818,y
+10126855,20181113,Sensor device and information processing device,9818,y
+9201936,20151201,Rapid provisioning of information for business analytics,6066,n
+9813994,20171107,Managing transmit power for better frequency re-use in TV white space,24800,n
+10236449,20190319,"Organic photoelectric device, and image sensor and electronic device including the same",104604,y
+9007858,20150414,"SRAM global precharge, discharge, and sense",6066,n
