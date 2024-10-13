@@ -3,7 +3,6 @@
 #include <sstream>
 #include <memory>
 #include <limits>
-#include <cstdlib>
 #include "firm.hpp"
 #include "firmSys.hpp"
 #include "linked_list_template.hpp"
