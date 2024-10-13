@@ -1,113 +1,48 @@
-# Patent System
+# 实验01 基础练习-企业专利信息
 
-## Overview
+## Goal
+理解数据结构的基本概念和进一步熟悉C++的基础知识。
 
-This project is a C++ program designed to manage patents and firms base on real-world data, with an emphasis on **encapsulation**, **flexibility**, and **abstract data structures**. The project includes various classes representing patents, firms, and systems of firms, and aims to **support different data structure** implementations (e.g., arrays, linked lists, hash tables) while maintaining a **consistent API** for interacting with patents and firms.
+## 问题描述
+1. 专利是企业创新能力的重要表现，企业通过申请专利来保护其创新成果。请设计一个企业专利系统，以便对企业的创新能力进行跟踪分析。
+2. PatentData.csv中描述了专利相关的数据（其中
+      patentID即专利ID，
+      grantdate即专利授予日期，
+      appldate即专利申请日期，
+      patent_title即专利名称，
+      country即专利所属国家，
+      firmID即专利所属企业ID
+   ），
 
-> Note: This is my first C++ project, and I tried to make it more "object-oriented", though I'm uncertain about the quality of the code. (thanks to LLMs, I learned a lot 🤣)
+   FirmData.csv中描述了企业相关的数据（其中
+      firmID即企业ID，
+      name即企业名称
+   ），
 
-## Design Goals
-1. **Data Structure Design & Implementation**: Practice data structure learned in the course, such as linked list, vector.
-1. **Abstraction and Encapsulation**: Provide a clear interface for interacting with patents and firms, allowing different data structure implementations to be swapped easily.
-2. **Flexibility**: Allow the patent system to be implemented using different underlying data structures, such as linked lists or arrays, providing the ability to choose the best structure based on the use case.
+   了解并使用C++语言根据这两张表实现初步的企业和专利数据类型，并根据firmID构建之间的关系，如企业申请的专利列表。
+3. 完成相关企业和专利信息的基本操作。
 
-## Features
+## 步骤
+1. 熟悉C++编程，完成企业类的定义，包括企业ID，企业名称，企业申请的专利列表等。完成专利类的定义，包括专利ID，专利类别，专利发明企业（建设每个专利只有一个企业），专利申请时间，授权时间等。
+2. 实现企业专利的基本操作：
+   1. 专利申请：企业可以申请新的专利。
+   2. 专利授权：企业申请专利通过审查，获得授权
+   3. 专利转让：将专利从一个企业转让给另一个企业。
+3. 通过`new()`创建企业和专利对象，并执行基本操作，最后通过`delete()`删除对象。
 
-- **Patent and Firm Management**: Classes for managing patents (`Patent`) and firms (`Firm`) allow for comprehensive tracking and manipulation of patent information, with an overall class (`FirmSystem`) to control the whole patent system.
-- **Flexible Data Structures**: Implementation of multiple data structures, such as arrays, linked lists, and hash tables, for both firm and firm system, providing flexibility for optimization based on use cases. (Although `unorder_map` may be the best for the current scenario, for learning purposes, I implemented the classes with as many data structures as possible)
-- **Abstract Interfaces**: Abstract base classes are used to ensure that different data structure implementations can be swapped seamlessly while preserving a consistent API.
+## 测试与验证
+1. 输出企业ID为24800的企业申请的专利数量。
+2. 为企业ID为24800的企业申请一个新的专利`("10001","20240923", "20240923","Data Structure","CN","24800")`。
+3. 将企业ID为24800的企业的该新申请的专利转让给企业ID为1690的企业，并输出企业ID为1690的企业申请的专利列表。
+4. 将该新的专利从企业ID为1690的企业申请的专利列表中删除。
 
+## 设备和环境
+PC计算机、Windows操作系统、C/C++开发环境
 
-## Class Overview
-- **Patent**: Represents a patent, with information such as patent ID, title, and owner.
-- **Firm**: Represents a firm, capable of owning multiple patents. (this is where mainly the data structure is used)
-- **FirmSystem**: Manages a collection of firms and their associated patents. (support operations between firms)
+## 结论
+1. 能够实现C++代码并正确执行。
+2. 掌握`new()`和`delete()`的用法。
 
-
-## Project Structure
-
-- **Header Files**:
-  - `patent.hpp`: Defines the `Patent` class, which represents individual patents.
-  - `firm.hpp`: Defines the `Firm` class, representing a firm that owns patents.
-  - `firmSys.hpp`: Defines the `FirmSystem` class, responsible for managing a collection of firms.
-  - `linked_list_template.hpp`: Defines a linked list template (`SinglyLinkedList`).
-  - `vector_template.hpp`: Defines a vector-like template class (`LinearList`).
-
-- **Source Files**:
-  - `main.cpp`: Contains the main function and CLI for the patent system
-
-## Getting Started
-### Prerequisites
-- C++ compiler such as `g++` or `Clang`.
-- C++11 or later for compiling the project.
-- CMake (version 3.10 or later).
-
-### Compilation
-To compile the project using CMake, follow these steps:
-1. Create a build directory:
-   ```
-   mkdir build && cd build
-   ```
-2. Run CMake to configure the project:
-   ```
-   cmake ..
-   ```
-3. Build the project:
-   ```
-   make
-   ```
-
-### Running the Program
-Once compiled, run the executable to interact with the patent system:
-```
-./patent_system
-```
-
-## Patent System Walkthrough
-
-### 1. Select Data Structures
-
-When the program starts, you will be prompted to select the data structures to use for managing patents and firms. You can choose between linked lists, vectors, and hash tables for both firm(patents) and firmSystem.
-```
-Select the Firm Data Structure to use:
-1. LinkedList
-2. Vector
-3. UnorderedMap
-Enter choice: 1
-Select the Firm System Data Structure to use:
-1. Vector
-2. UnorderedMap
-Enter choice: 1
-```
-
-### 2. Patent System Menu
-
-After selecting the data structures, you will see the main menu for the patent system, where you can perform various operations on patents and firms:
-
-```
-=====================================
-        PATENT SYSTEM MENU          
-=====================================
--------------------------------------
-           PATENT OPERATIONS           
-1. Add Patent to Firm
-2. Remove Patent from Firm
-3. Transfer Patent between Firms
--------------------------------------
-           FIRM OPERATIONS           
-4. Display Firm Details
-5. Display All Firms Info
-6. Add Firm
-7. Remove Firm
--------------------------------------
-0. Exit
-=====================================
-Select an option: 
-```
-
-## Future Improvements
-- **Hash Table Implementation**: Add support for using hash tables to manage patents and firms for optimized searching and insertion. Currently, the project directly uses `std::unordered_map` for the firm system, but it's better to implement a hash table by myself 💪.
-- **Improved User Interface**: Create a more user-friendly CLI or even a GUI, WebUI for easier interaction
-- **<font color="red">Serialization</font>**: Add functionality to save and load firm and patent data to/from a file for persistence.
-- **<font color="red">Performance Metrics</font>**: Implement functionality to measure and display performance metrics for different data structure implementations.
-- **Performance Optimization**: Add more data structures and algorithms to improve the performance of the patent system.
+## 思考题
+1. 对于上述基本操作，分析这些操作的时间复杂度和空间复杂度，是否有优化的空间？
+2. 如果专利系统需要支持更多的功能（如按类别、时间、申请人查询专利等），如何设计数据结构以便于实现这些功能？是否需要引入新的数据结构？
