@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a C++ program designed to manage patents and firms base on real-world data, with an emphasis on **encapsulation**, **flexibility**, and **abstract data structures**. The project includes various classes representing patents, firms, and systems of firms, and aims to **support different data structure** implementations (e.g., arrays, linked lists, hash tables) while maintaining a **consistent API** for interacting with patents and firms.
+This project is the lab from my DSA class, a C++ program designed to manage patents and firms base on real-world data, with an emphasis on **encapsulation**, **flexibility**, and **abstract data structures**. The project includes various classes representing patents, firms, and systems of firms, and aims to **support different data structure** implementations (e.g., arrays, linked lists, hash tables) while maintaining a **consistent API** for interacting with patents and firms.
 
 > Note: This is my first C++ project, and I tried to make it more "object-oriented", though I'm uncertain about the quality of the code. (thanks to LLMs, I learned a lot 🤣)
 
