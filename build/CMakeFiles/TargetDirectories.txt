@@ -1,0 +1,3 @@
+/Users/audiofool/Desktop/Projects/DSA-Lab/build/CMakeFiles/patent_system.dir
+/Users/audiofool/Desktop/Projects/DSA-Lab/build/CMakeFiles/edit_cache.dir
+/Users/audiofool/Desktop/Projects/DSA-Lab/build/CMakeFiles/rebuild_cache.dir
