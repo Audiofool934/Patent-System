@@ -5,8 +5,8 @@
 #include <limits>
 #include "firm.hpp"
 #include "firmSys.hpp"
-#include "linked_list_template.hpp"
-#include "vector_template.hpp"
+#include "./template/linked_list_template.hpp"
+#include "./template/vector_template.hpp"
 
 void printMenu() {
     std::cout << "\n=====================================" << std::endl;
