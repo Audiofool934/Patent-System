@@ -4,19 +4,19 @@
 #include <iostream>
 
 template <typename T>
-class stack {
+class Stack {
 public:
     virtual int size() const = 0;
-    virtual bool isEmpty() = 0;
-    virtual void push() = 0;
+    virtual bool isEmpty() const = 0;
+    virtual void push(T num) = 0;
     virtual void pop() = 0;
-    virtual T top() = 0;
-    std::vector<T> toVector() = 0;
+    virtual T top() const = 0;
+    virtual std::vector<T> toVector() const = 0;
 };
 
 // 基于链表实现栈（头插）
 template <typename T>
-class LinkedListStack : public stack<T> {
+class LinkedListStack : public Stack<T> {
 private:
     struct ListNode {
         T data;
@@ -45,7 +45,7 @@ public:
         return stackSize;
     }
 
-    bool isEmpty() override {
+    bool isEmpty() const override {
         return size() == 0;
     }
 
@@ -63,24 +63,35 @@ public:
         stackSize--;
     }
 
-    T top() override {
+    T top() const override {
         if (isEmpty())
             throw std:: out_of_range("stack is empty!");
         return stackTop->data;
     }
 
-    std::vector<T> toVector() override {
+    std::vector<T> toVector() const override {
         ListNode* node = stackTop;
         std::vector<T> res(size());
         for (T i = res.size() - 1; i >= 0; i--) {
             res[i] = node->data;
             node = node->next;
         }
+        return res;
+    }
+
+    void display() { // 用于调试
+        ListNode* node = stackTop;
+        std::cout << "Stack (Top): ";
+        while (node != nullptr) {
+            std::cout << node->data << " ";
+            node = node->next;
+        }
+        std::cout << " (Bottom)" << std::endl;
     }
 };
 
 template <typename T>
-class ArrayStack : public stack<T> {
+class ArrayStack : public Stack<T> {
     private:
         std::vector<int> stack;
     public:
@@ -88,7 +99,7 @@ class ArrayStack : public stack<T> {
             return stack.size();
         }
 
-        bool isEmpty() override{
+        bool isEmpty() const override{
             return stack.size() == 0;
         }
 
@@ -102,14 +113,22 @@ class ArrayStack : public stack<T> {
             return num;
         }
 
-        int top() override{
+        int top() const override{
             if (isEmpty())
                 throw std::out_of_range("stack is empty!");
             return stack.back();
         }
 
-        vector<int> toVector() override {
+        std::vector<int> toVector() const override {
             return stack;
+        }
+
+        void display() { // 用于调试
+            std::cout << "Stack (Top): ";
+            for (int i = stack.size() - 1; i >= 0; i--) {
+                std::cout << stack[i] << " ";
+            }
+            std::cout << " (Bottom)" << std::endl;
         }
 };
 

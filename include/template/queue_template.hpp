@@ -4,7 +4,18 @@
 #include <iostream>
 
 template <typename T>
-class LinkedListQueue {
+class Queue {
+public:
+    virtual int size() const = 0;
+    virtual bool isEmpty() const = 0;
+    virtual void push(T num) = 0;
+    virtual T pop() = 0;
+    virtual T peek() const = 0;
+    virtual std::vector<T> toVector() const = 0;
+};
+
+template <typename T>
+class LinkedListQueue: public Queue<T> {
 private:
     struct ListNode {
         T data;
@@ -22,7 +33,7 @@ public:
     }
 
     ~LinkedListQueue() {
-        ListNode* curr = stackTop;
+        ListNode* curr = front;
         while(curr != nullptr) {
             ListNode* temp = curr;
             curr = curr->next;
@@ -30,15 +41,15 @@ public:
         }
     }
 
-    int size() {
+    int size() const override{
         return queSize;
     }
 
-    bool isEmpty() {
+    bool isEmpty() const override {
         return queSize == 0;
     }
 
-    void push(int num) {
+    void push(T num) override {
         ListNode* node = new ListNode(num);
         // 注意边际情况
         if (front == nullptr) {
@@ -51,44 +62,57 @@ public:
         queSize++;
     }
 
-    int pop() {
-        int num = peek();
+    T pop() override {
+        T num = peek();
         
         ListNode* tmp = front;
-        front = front next;
+        front = front->next;
 
         delete tmp;
         queSize--;
         return num;
     }
 
-    int peek() {
+    T peek() const override {
         if (size() == 0) {
-            std::cout << "empty! " << std::endl;
+            throw std::out_of_range("queue is empty");
         }
         return front->data;
     }
 
-    std::vector<int> tostd::vector() {
+    std::vector<T> toVector() const override {
         ListNode* node = front;
-        std::vector<int> res(size());
+        std::vector<T> res(size());
         for (int i = 0; i < res.size(); i++) {
             res[i] = node->data;
             node = node->next;
         }
         return res;
     }
+
+    void display() {
+        ListNode* node = front;
+        std::cout << "Queue (front): ";
+        while (node != nullptr) {
+            std::cout << node->data << " ";
+            node = node->next;
+        }
+        std::cout << "Queue (rear): " << std::endl;
+    }
+
 };
 
-class ArrayQueue {
+template <typename T>
+class ArrayQueue: public Queue<T> {
 private:
-    int* nums;
-    int front;
+    T* nums;
+    T front;
     int queSize;
     int queCapacity;
+
 public:
     ArrayQueue(int capacity) {
-        nums = new int[capacity];
+        nums = new T[capacity];
         queCapacity = capacity;
         front = queSize = 0;
     }
@@ -97,47 +121,54 @@ public:
         delete[] nums;
     }
 
-    int capacity() {
-        return queCapacity;
-    }
+    // int capacity() {
+    //     return queCapacity;
+    // }
 
-    int size() {
+    T size() const override {
         return queSize;
     }
 
-    bool isEmpty() {
+    bool isEmpty() const override {
         return size() == 0;
     }
 
-    void push(int num) {
+    void push(T num) override{
         if (queSize == queCapacity) {
-            std::cout << "Full" << std::endl;
+            throw std::out_of_range("queue is full");
             return;
         }
-        int rear = (front + queSize) % queCapacity;
+        T rear = (front + queSize) % queCapacity;
         nums[rear] = num;
         queSize++;
     }
 
-    int pop() {
-        int num = peek();
+    T pop() override {
+        T num = peek();
         front = (front + 1) % queCapacity;
         queSize--;
         return num;
     }
 
-    int peek() {
-            throw std::out_of_range("队列为空");
-            throw std::out_of_range("队列为空");
+    T peek() const override {
+            throw std::out_of_range("queue is empty");
         return nums[front];
     }
 
-    std::vector<int> toVector() {
-        std::vector<int> arr(queSize);
+    std::vector<T> toVector() const override {
+        std::vector<T> arr(queSize);
         for (int i = 0, j = front; i < queSize; i++, j++) {
             arr[i] = nums[j % queCapacity];
         }
         return arr;
+    }
+
+    void display() {
+        std::cout << "Queue (front): ";
+        for (int i = 0, j = front; i < queSize; i++, j++) {
+            std::cout << nums[j % queCapacity] << " ";
+        }
+        std::cout << "Queue (rear): " << std::endl;
     }
 
 };
