@@ -7,8 +7,8 @@
 #include <unordered_map>
 #include <list>
 #include "patent.hpp"
-#include "linked_list_template.hpp"
-#include "vector_template.hpp"
+#include "template/linked_list_template.hpp"
+#include "template/vector_template.hpp"
 
 class IFirm {
 public:

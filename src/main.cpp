@@ -5,14 +5,14 @@
 #include <limits>
 #include "firm.hpp"
 #include "firmSys.hpp"
-#include "linked_list_template.hpp"
-#include "vector_template.hpp"
+#include "./template/linked_list_template.hpp"
+#include "./template/vector_template.hpp"
 
 void printMenu() {
     std::cout << "\n=====================================" << std::endl;
     std::cout << "        PATENT SYSTEM MENU          " << std::endl;
     std::cout << "=====================================" << std::endl;
-    // std::cout << "-------------------------------------" << std::endl;
+    std::cout << "-------------------------------------" << std::endl;
     std::cout << "           PATENT OPERATIONS           " << std::endl;
     std::cout << "1. Add Patent to Firm" << std::endl;
     std::cout << "2. Remove Patent from Firm" << std::endl;
@@ -55,10 +55,7 @@ int main() {
             firmType = FirmType::UnorderedMap;
     }
 
-    // std::shared_ptr<IFirmSystem> firmSystem;
-
-    std::string firmData = "../data/FirmData.csv";
-    std::string patentData = "../data/PatentData.csv";
+    std::shared_ptr<IFirmSystem> firmSystem;
 
     std::cout << "Select the Firm System Data Structure to use:" << std::endl;
     std::cout << "1. Vector" << std::endl;
@@ -66,9 +63,6 @@ int main() {
     std::cout << "Enter choice: ";
     std::cin >> typeChoice;
 
-    system("clear");
-
-    std::shared_ptr<IFirmSystem> firmSystem;
     switch (typeChoice) {
         case 1:
             firmSystem = std::make_shared<FirmSystemVector>(firmType);
@@ -78,11 +72,14 @@ int main() {
             break;
         default:
             std::cerr << "Invalid choice. Defaulting to UnorderedMap." << std::endl;
-            firmSystem = std::make_shared<FirmSystemVector>(firmType);
+            firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
     }
+    system("clear");
 
-    firmSystem->loadFirms(firmData);
-    firmSystem->loadPatentsFromCSV(patentData);
+    std::string filename="../data/FirmData.csv";
+    firmSystem->loadFirms(filename);
+    filename="../data/PatentData.csv";
+    firmSystem->loadPatentsFromCSV(filename);
 
     int choice;
     do {
@@ -109,6 +106,7 @@ int main() {
                 std::cin >> country;
                 Patent patent(patentID, grantdate, appldate, title, country, firmID);
                 firmSystem->addPatentFirm(firmID, patent);
+                std::cout << "Patent added successfully." << std::endl;
                 break;
             }
             case 2: {
@@ -116,7 +114,6 @@ int main() {
                 std::string firmID, patentID;
                 std::cout << "Enter Firm ID to remove Patent from: ";
                 std::cin >> firmID;
-                firmSystem->displayFirm(firmID);
                 std::cout << "Enter Patent ID: ";
                 std::cin >> patentID;
                 firmSystem->removePatentFirm(firmID, patentID);
@@ -128,9 +125,6 @@ int main() {
                 std::string fromFirmID, toFirmID, patentID;
                 std::cout << "Enter Source Firm ID: ";
                 std::cin >> fromFirmID;
-                firmSystem->displayFirm(fromFirmID);
-                std::cout << std::endl;
-                firmSystem->displayFirmsID();
                 std::cout << "Enter Destination Firm ID: ";
                 std::cin >> toFirmID;
                 std::cout << "Enter Patent ID to transfer: ";
@@ -176,7 +170,6 @@ int main() {
                 break;
             }
             default: {
-                system("clear");
                 std::cerr << "Invalid choice. Please try again." << std::endl;
                 break;
             }

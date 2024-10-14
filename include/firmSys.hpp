@@ -7,15 +7,15 @@
 #include <unordered_map>
 #include <list>
 #include "firm.hpp"
-#include "linked_list_template.hpp"
-#include "vector_template.hpp"
+#include "template/linked_list_template.hpp"
+#include "template/vector_template.hpp"
 
 class IFirmSystem {
 public:
     virtual void addFirm(const std::string& firmID, const std::string& firmName) = 0;
     virtual void removeFirm(const std::string& firmID) = 0;
     virtual std::shared_ptr<IFirm> getFirm(const std::string& firmID) const = 0;
-    // virtual std::string cleanString(const std::string& input) = 0;
+    virtual std::string cleanString(const std::string& input) = 0;
     virtual void loadFirms(const std::string& filename) = 0;
     virtual void loadPatentsFromCSV(const std::string& filename) = 0;
     virtual void addPatentFirm(const std::string& firmID, Patent& patent) = 0;
@@ -31,7 +31,7 @@ public:
 class BaseFirmSystem : public IFirmSystem {
 public:
 
-    std::string cleanString(const std::string& input) {
+    std::string cleanString(const std::string& input) override {
         std::string cleaned = input;
 
         cleaned.erase(cleaned.begin(), std::find_if(cleaned.begin(), cleaned.end(), [](unsigned char c) {
@@ -159,8 +159,6 @@ public:
         });
         if (it != fs.end()) {
             (*it)->addPatent(patent);
-        } else {
-            std::cerr << "Firm not found." << std::endl;
         }
     }
 
