@@ -7,8 +7,8 @@
 #include <unordered_map>
 #include <list>
 #include "firm.hpp"
-#include "./template/linked_list_template.hpp"
-#include "./template/vector_template.hpp"
+#include "template/linked_list_template.hpp"
+#include "template/vector_template.hpp"
 
 class IFirmSystem {
 public:
