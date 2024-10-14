@@ -983,5 +983,7 @@ CMakeFiles/patent_system.dir/src/main.cpp.o: \
   /Users/audiofool/Desktop/Projects/DSA-Lab/include/template/linked_list_template.hpp \
   /Users/audiofool/Desktop/Projects/DSA-Lab/include/template/vector_template.hpp \
   /Users/audiofool/Desktop/Projects/DSA-Lab/include/firmSys.hpp \
+  /Users/audiofool/Desktop/Projects/DSA-Lab/include/template/stack_template.hpp \
+  /Users/audiofool/Desktop/Projects/DSA-Lab/include/template/queue_template.hpp \
   /Users/audiofool/Desktop/Projects/DSA-Lab/include/./template/linked_list_template.hpp \
   /Users/audiofool/Desktop/Projects/DSA-Lab/include/./template/vector_template.hpp

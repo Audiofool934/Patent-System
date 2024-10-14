@@ -17,6 +17,7 @@ private:
     std::string title;
     std::string country;
     std::string firmID;
+    std::pair<bool, int> status;
 
 public:
     Patent() {}
@@ -31,6 +32,14 @@ public:
     std::string getTitle() const { return title; }
     std::string getCountry() const { return country; }
     std::string getFirmID() const { return firmID; }
+
+    void setStatus(bool status, int value) {
+        this->status = std::make_pair(status, value);
+    }
+
+    std::pair<bool, int> getStatus() const {
+        return status;
+    }
 
     void setFirmID(const std::string& firmID) {
         this->firmID = firmID;

@@ -10,20 +10,26 @@
 
 void printMenu() {
     std::cout << "\n=====================================" << std::endl;
-    std::cout << "        PATENT SYSTEM MENU          " << std::endl;
+    std::cout << "         PATENT SYSTEM MENU          " << std::endl;
     std::cout << "=====================================" << std::endl;
     std::cout << "-------------------------------------" << std::endl;
-    std::cout << "           PATENT OPERATIONS           " << std::endl;
+    std::cout << "          PATENT OPERATIONS          " << std::endl;
     std::cout << "1. Add Patent to Firm" << std::endl;
     std::cout << "2. Remove Patent from Firm" << std::endl;
     std::cout << "3. Transfer Patent between Firms" << std::endl;
     std::cout << "-------------------------------------" << std::endl;
+    
     std::cout << "           FIRM OPERATIONS           " << std::endl;
     std::cout << "4. Display Firm Details" << std::endl;
     std::cout << "5. Display All Firms Info" << std::endl;
     std::cout << "6. Add Firm" << std::endl;
     std::cout << "7. Remove Firm" << std::endl;
     std::cout << "-------------------------------------" << std::endl;
+
+    std::cout << "                GRANT                " << std::endl;
+    std::cout << "8. Start patent granting pipeline" << std::endl;
+    std::cout << "9. Display firms' desired patents" << std::endl;
+
     std::cout << "0. Exit" << std::endl;
     std::cout << "=====================================" << std::endl;
     std::cout << "Select an option: ";
@@ -33,7 +39,7 @@ int main() {
     FirmType firmType;
     int typeChoice;
 
-    std::cout << "Select the Firm Data Structure to use:" << std::endl;
+    std::cout << "Select the Firm(Patents) Data Structure to use:" << std::endl;
     std::cout << "1. LinkedList" << std::endl;
     std::cout << "2. Vector" << std::endl;
     std::cout << "3. UnorderedMap" << std::endl;
@@ -55,32 +61,35 @@ int main() {
             firmType = FirmType::UnorderedMap;
     }
 
-    std::shared_ptr<IFirmSystem> firmSystem;
+    // std::shared_ptr<IFirmSystem> firmSystem;
+    // std::cout << "Select the Firm System Data Structure to use:" << std::endl;
+    // std::cout << "1. Vector" << std::endl;
+    // std::cout << "2. UnorderedMap" << std::endl;
+    // std::cout << "Enter choice: ";
+    // std::cin >> typeChoice;
 
-    std::cout << "Select the Firm System Data Structure to use:" << std::endl;
-    std::cout << "1. Vector" << std::endl;
-    std::cout << "2. UnorderedMap" << std::endl;
-    std::cout << "Enter choice: ";
-    std::cin >> typeChoice;
+    // switch (typeChoice) {
+    //     case 1:
+    //         firmSystem = std::make_shared<FirmSystemVector>(firmType);
+    //         break;
+    //     case 2:
+    //         firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
+    //         break;
+    //     default:
+    //         std::cerr << "Invalid choice. Defaulting to UnorderedMap." << std::endl;
+    //         firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
+    // }
 
-    switch (typeChoice) {
-        case 1:
-            firmSystem = std::make_shared<FirmSystemVector>(firmType);
-            break;
-        case 2:
-            firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
-            break;
-        default:
-            std::cerr << "Invalid choice. Defaulting to UnorderedMap." << std::endl;
-            firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
-    }
+    std::shared_ptr<IFirmSystem> firmSystem = std::make_shared<FirmSystemUnorderedMap>(firmType);
     system("clear");
 
     std::string filename="../data/FirmData.csv";
     firmSystem->loadFirms(filename);
-    filename="../data/PatentData.csv";
+    filename="../data/patent1.csv";
     firmSystem->loadPatentsFromCSV(filename);
-
+    filename="../data/patent2.csv";
+    firmSystem->loadApplicantsFromCSV(filename);
+    
     int choice;
     do {
         printMenu();
@@ -165,11 +174,23 @@ int main() {
                 firmSystem->removeFirm(firmID);
                 break;
             }
+            case 8: {
+                system("clear");
+                firmSystem->processApplicants();
+                // 之类应该支持暂停
+                break;
+            }
+            case 9: {
+                system("clear");
+                firmSystem->displayFirmsAppl();
+                break;
+            }
             case 0: {
                 std::cout << "Exiting..." << std::endl;
                 break;
             }
             default: {
+                system("clear");
                 std::cerr << "Invalid choice. Please try again." << std::endl;
                 break;
             }

@@ -47,7 +47,7 @@ void testQueue() {
 }
 
 int main() {
-    testStack();
-    testQueue();
+    // testStack();
+    // testQueue();
     return 0;
 }

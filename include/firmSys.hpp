@@ -7,31 +7,45 @@
 #include <unordered_map>
 #include <list>
 #include "firm.hpp"
+#include "template/stack_template.hpp"
+#include "template/queue_template.hpp"
 #include "template/linked_list_template.hpp"
 #include "template/vector_template.hpp"
 
 class IFirmSystem {
 public:
+    /* ------------------------------- initialization ------------------------------- */
+    virtual void loadFirms(const std::string& filename) = 0;
+    virtual void loadPatentsFromCSV(const std::string& filename) = 0;
+
+    /* ------------------------------- operations ------------------------------- */
     virtual void addFirm(const std::string& firmID, const std::string& firmName) = 0;
     virtual void removeFirm(const std::string& firmID) = 0;
     virtual std::shared_ptr<IFirm> getFirm(const std::string& firmID) const = 0;
-    virtual std::string cleanString(const std::string& input) = 0;
-    virtual void loadFirms(const std::string& filename) = 0;
-    virtual void loadPatentsFromCSV(const std::string& filename) = 0;
     virtual void addPatentFirm(const std::string& firmID, Patent& patent) = 0;
     virtual void removePatentFirm(const std::string& firmID, const std::string& patentID) = 0;
     virtual void transferPatent(const std::string& fromFirmID, const std::string& toFirmID, const std::string& patentID) = 0;
+
+    /* --------------------------- patents application -------------------------- */
+    virtual void loadApplicantsFromCSV(const std::string& filename) = 0;
+    virtual void addApplicantToQueue(const Patent& patent) = 0;
+    virtual void processApplicants() = 0;
+    virtual void changeApplicantInfo(Patent& patent) = 0;
+
+    /* --------------------------------- display -------------------------------- */
     virtual void displayFirm(const std::string& firmID) const = 0;
     virtual void displayFirms() const = 0;
     virtual void displayFirmsID() const = 0;
-    virtual ~IFirmSystem() {}
+    virtual void displayFirmApplicants(const std::string& firmID) const = 0;
+    virtual void displayFirmsAppl() const = 0;
+
+    virtual ~IFirmSystem() = default;
     // 可以加查找；按id；按title-关键词、tf-idf
 };
 
 class BaseFirmSystem : public IFirmSystem {
 public:
-
-    std::string cleanString(const std::string& input) override {
+    std::string cleanString(const std::string& input) {
         std::string cleaned = input;
 
         cleaned.erase(cleaned.begin(), std::find_if(cleaned.begin(), cleaned.end(), [](unsigned char c) {
@@ -95,7 +109,8 @@ public:
                 getline(ss, patent_title, ',');
             }
 
-            getline(ss, country, ',');
+            // alter for patent1.csv
+            // getline(ss, country, ',');
             getline(ss, firmID, ',');
 
             firmID = cleanString(firmID);
@@ -232,8 +247,20 @@ class FirmSystemUnorderedMap : public BaseFirmSystem {
 private:
     std::unordered_map<std::string, std::shared_ptr<IFirm>> fs;
     FirmType firmType;
+    LinkedListQueue<Patent> applQueue;
+    LinkedListStack<std::string> allHistory; // 这个历史记录需要思考，是不是应该保存操作？
+    LinkedListQueue<Patent> rejQueue;
+    LinkedListStack<std::string> rejHistory;
+    std::unordered_map<std::string, std::vector<std::string>> firmApplCount;
+
 public:
-    FirmSystemUnorderedMap(FirmType type) : firmType(type) {}
+    FirmSystemUnorderedMap(FirmType type) 
+        : firmType(type), 
+          applQueue(), 
+          allHistory(), 
+          rejQueue(), 
+          rejHistory(), 
+          firmApplCount() {}
 
     void addFirm(const std::string& firmID, const std::string& firmName) override {
         std::shared_ptr<IFirm> firm;
@@ -249,6 +276,7 @@ public:
                 break;
         }
         fs[firmID] = firm;
+        firmApplCount[firmID] = {};
     }
 
     void removeFirm(const std::string& firmID) override {
@@ -301,12 +329,132 @@ public:
         return nullptr;
     }
 
+
+    void loadApplicantsFromCSV(const std::string& filename) override {
+        std::ifstream file(filename);
+        std::string line, patentID, appldate, patent_title, firmID, result, grantdate, country;
+
+        if (!file.is_open()) {
+            std::cerr << "Error: Could not open PatentData.csv" << std::endl;
+            file.close();
+        }
+
+        getline(file, line);
+
+        while (getline(file, line)) {
+            std::stringstream ss(line);
+            std::getline(ss, patentID, ',');
+            std::getline(ss, appldate, ',');
+
+            if (line.find('"') != std::string::npos) {
+                getline(ss, patent_title, '"');
+                getline(ss, patent_title, '"');
+                ss.ignore();
+            } else {
+                getline(ss, patent_title, ',');
+            }
+
+            getline(ss, firmID, ',');
+            getline(ss, result, ',');
+
+            // 这里应该只是暂时的，后面会有判断标准，到时候还是一个一个push进applQueue，然后对applQueue进行排序，，
+
+            firmID = cleanString(firmID);
+            
+            Patent p(patentID, grantdate, appldate, patent_title, country, firmID);
+            p.setStatus(cleanString(result) == "y", 0);
+            firmApplCount[firmID].push_back(patentID);
+            addApplicantToQueue(p);
+        }
+        file.close();
+    }
+
+    void addApplicantToQueue(const Patent& patent) override {
+        applQueue.push(patent);
+    }
+
+    void sortApplicants() {
+        std::vector<Patent> tempVec = applQueue.toVector();
+        std::sort(tempVec.begin(), tempVec.end(), [](const Patent& a, const Patent& b) {
+            return a.getAppldate() < b.getAppldate();
+        });
+        applQueue.clear();
+        for (const auto& patent : tempVec) {
+            applQueue.push(patent);
+        }
+    }
+
+    void processApplicants() override {
+        sortApplicants();
+        // applQueue.display();
+        while (!applQueue.isEmpty()) {
+
+            Patent p = applQueue.pop();
+            bool yes = p.getStatus().first;
+            int times = p.getStatus().second;
+            // std::cout << "Processing: " << p.getPatentID() << "status: " << yes << times << std::endl;
+            if (yes) {
+                allHistory.push(p.getPatentID());
+                addPatentFirm(p.getFirmID(), p);
+            }
+            else {
+                if (times < 1) {
+                    allHistory.push(p.getPatentID());
+                    rejHistory.push(p.getPatentID());
+                    p.setStatus(false, times + 1);
+                    rejQueue.push(p);
+                }
+                else {
+                    changeApplicantInfo(p);
+                    yes = p.getStatus().first;
+                    if (yes) {
+                        allHistory.push(p.getPatentID());
+                        addPatentFirm(p.getFirmID(), p);
+                    } else {
+                        allHistory.push(p.getPatentID());
+                        rejHistory.push(p.getPatentID());
+                        rejQueue.push(p);
+                    }
+                }
+            }
+
+            if (applQueue.size() <= 3 && !rejQueue.isEmpty()) {
+                addApplicantToQueue(rejQueue.pop());
+            }
+        }
+    }
+
+    void changeApplicantInfo(Patent& patent) override {
+        displayTitle();
+        patent.display();
+        // std::cout << "Failed to pass the application. You need to change the apply info: " << std::endl;
+        // std::string firmID, patentID, grantdate, appldate, title, country;
+        // std::cout << "Update Firm ID: ";
+        // std::cin >> firmID;
+        // std::cout << "Update Patent ID: ";
+        // std::cin >> patentID;
+        // std::cout << "Update Grant Date: ";
+        // std::cin >> grantdate;
+        // std::cout << "Updaet Application Date: ";
+        // std::cin >> appldate;
+        // std::cout << "Update Title: ";
+        // std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        // std::getline(std::cin, title);
+        // std::cout << "Update Country: ";
+        // std::cin >> country;
+        // Patent patent(patentID, grantdate, appldate, title, country, firmID);
+        std::cout << "set patent status to y/n: ";
+        std::string status;
+        std::cin >> status;
+        patent.setStatus(cleanString(status) == "y", patent.getStatus().second);
+        system("clear");
+    }
+
     void displayFirmsID() const override {
         if (fs.empty() == 0) {
             std::cout << "No firms available." << std::endl;
             return;
         }
-
         for (const auto& pair : fs) {
             std::cout << pair.second->getFirmName() << "  ";
         }
@@ -315,7 +463,6 @@ public:
             std::cout << pair.first << "  ";
         }
         std::cout << std::endl;
-
     }
 
     void displayFirms() const override {
@@ -328,6 +475,32 @@ public:
             displayFirm(pair.first);
         }
     }
+
+    void displayFirmApplicants(const std::string& firmID) const override {
+        auto it = fs.find(firmID);
+        if (it != fs.end()) {
+            std::cout << "Firm ID: " << it->second->getFirmID() << ", Firm Name: " << it->second->getFirmName() << std::endl;
+            std::cout << "Number of Patents: " << it->second->getPatentCount() << std::endl;
+            // it->second->displayPatents();
+            // std::cout << "-----------------------------------" << std::endl;
+            auto it = firmApplCount.find(firmID);
+            if (it != firmApplCount.end()) {
+                std::cout << "Number of Applicants: " << it->second.size() << std::endl;
+            } else {
+                std::cerr << "Firm not found in firmApplCount." << std::endl;
+            }
+            std::cout << "-----------------------------------" << std::endl;
+        } else {
+            std::cerr << "Firm not found." << std::endl;
+        }
+    }
+
+    void displayFirmsAppl() const override{
+        for (const auto& pair : firmApplCount) {
+            displayFirmApplicants(pair.first);
+        }
+    }
+
 };
 
 #endif

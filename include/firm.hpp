@@ -29,7 +29,7 @@ enum class FirmType {
 };
 
 class BaseFirm : public IFirm {
-// 这里可以抽象出来，减少重复代码 
+// 这里可以抽象出来，减少重复代码
 };
 
 class FirmLinkedList : public IFirm {
@@ -38,6 +38,7 @@ private:
     std::string firmName;
     int patentCount;
     SinglyLinkedList<Patent> patents;
+    // SinglyLinkedList<Patent> patentsToBeProcessed; // 这个是不是应该放到firmSystem里面？
 
 public:
     FirmLinkedList() : patentCount(0) {}

@@ -11,6 +11,7 @@ public:
     virtual void push(T num) = 0;
     virtual T pop() = 0;
     virtual T peek() const = 0;
+    virtual void clear() = 0;
     virtual std::vector<T> toVector() const = 0;
 };
 
@@ -78,6 +79,12 @@ public:
             throw std::out_of_range("queue is empty");
         }
         return front->data;
+    }
+
+    void clear() override {
+        while (!isEmpty()) {
+            pop();
+        }
     }
 
     std::vector<T> toVector() const override {
@@ -153,6 +160,10 @@ public:
     T peek() const override {
             throw std::out_of_range("queue is empty");
         return nums[front];
+    }
+
+    void clear() override {
+        front = queSize = 0;
     }
 
     std::vector<T> toVector() const override {

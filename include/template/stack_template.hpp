@@ -24,7 +24,7 @@ private:
         ListNode(T d): data(d), next(nullptr) {}
     };
     ListNode* stackTop;
-    T stackSize;
+    int stackSize;
 
 public:
     LinkedListStack() {
@@ -41,7 +41,7 @@ public:
         }
     }
 
-    T size() const override {
+    int size() const override {
         return stackSize;
     }
 
@@ -72,7 +72,7 @@ public:
     std::vector<T> toVector() const override {
         ListNode* node = stackTop;
         std::vector<T> res(size());
-        for (T i = res.size() - 1; i >= 0; i--) {
+        for (size_t i = res.size() - 1; i >= 0; i--) {
             res[i] = node->data;
             node = node->next;
         }
